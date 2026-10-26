@@ -15,4 +15,4 @@ def hoeveelheid_water(minuten: int) -> int:
     print result
 
 if __name__ == '__main__':
-    <vraag input, roep functie aan, en print resultaat
+    
