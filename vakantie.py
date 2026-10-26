@@ -14,7 +14,7 @@ def overnight_costs(nights: int) -> float:
     >>> overnight_costs(7)
     420
     """
-    return round(nights * 60)
+    return nights * 60
 
 def total_costs(km: int, nights: int) -> int:
     """
