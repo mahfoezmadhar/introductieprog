@@ -1,1 +1,1 @@
-waarde = input('')
+waarde = input('20')
