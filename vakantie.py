@@ -9,8 +9,7 @@ def travel_costs(km: int) -> float:
 
 def overnight_costs(nights: int) -> float:
     """
-    Bepaalt de overnachtingskosten op basis van het aantal nachten
-    dat je op vakantie gaat.
+    
     """
     return nights * 60
 
