@@ -19,7 +19,7 @@ def total_costs(km: int, nights: int) -> int:
     Deze functie delegeert zoveel mogelijk werk naar de andere
     twee functies (roep die dus hier aan).
     """
-    return int(overnight_costs + travel_costs
+    return int(overnight_costs + travel_costs)
 
 if __name__ == '__main__':
     <Schrijf hier code die input van de gebruiker opvraagt,
