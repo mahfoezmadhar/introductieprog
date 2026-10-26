@@ -17,7 +17,8 @@ def weeks_elapsed(day1: int, day2: int) -> int:
     >>> weeks_elapsed(1, 27)
     3
 
-    """result = abs(day1 - day2) // 7
+    """
+    result = abs(day1 - day2) // 7
     return result
 
 
