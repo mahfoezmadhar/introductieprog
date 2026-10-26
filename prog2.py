@@ -1,1 +1,2 @@
 waarde = input('')
+print
