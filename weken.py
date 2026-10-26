@@ -17,7 +17,7 @@ def weeks_elapsed(day1: int, day2: int) -> int:
     3
 
     """
-    if weken.py == 'weken.pymain':
+
     day1 = int(input("Dagnummer 1: "))
     day2 = int(input("Dagnummer 2: "))
     result = abs(day1-day2)//7
