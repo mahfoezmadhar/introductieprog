@@ -15,4 +15,4 @@ def hoeveelheid_water(minuten: int) -> int:
     print result
 
 if __name__ == '__main__':
-    minuten= int(input())
+    minuten= int(input(""))
