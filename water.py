@@ -1,6 +1,6 @@
 def hoeveelheid_water(minuten: int) -> int:
     """
-    hoeveelheid_water()
+    hoeveelheid_water(1)
     Geeft de hoeveelheid water uit de douche, gerekend in flesjes,
     gegeven het aantal minuten douchen.
     """
