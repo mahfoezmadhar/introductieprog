@@ -12,7 +12,7 @@ def hoeveelheid_water(minuten: int) -> int:
     
     """
     result = minuten * 12
-    print result
+    return result
 
 if __name__ == '__main__':
     minuten= int(input("Hoeveel minuten douche je?: "))
