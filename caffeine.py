@@ -11,4 +11,4 @@ if __name__ == '__main__':
     int(input(hoeveel koppen thee?: )) 
     int(input(hoeveel energiedrankjes?: ))
     int(input(hoeveel glazen cola?: ))
-    
+    result
