@@ -1,2 +1,3 @@
 waarde = input('')
-print (waarde)
+print (waarde
+)
