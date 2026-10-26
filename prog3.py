@@ -1,2 +1,2 @@
-waarde = invoer('')
+waarde = input('')
 print(abs(waarde))
