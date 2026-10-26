@@ -5,7 +5,9 @@ def hoeveelheid_water(minuten: int) -> int:
     
     >>> hoeveelheid_water(1)
     12
-    >>> hoeveelheid_water(  
+    >>> hoeveelheid_water(3)
+    36
+    
     """
 
 if __name__ == '__main__':
