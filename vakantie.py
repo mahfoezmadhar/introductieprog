@@ -22,3 +22,4 @@ def total_costs(km: int, nights: int) -> int:
     return int(overnight_costs + travel_costs)
 
 if __name__ == '__main__':
+ 
