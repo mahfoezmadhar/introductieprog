@@ -11,7 +11,7 @@ def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
     return result
 
 if __name__ == '__main__':
-    int(input("hoeveel koppen coffee?: "))
+   coffee= int(input("hoeveel koppen coffee?: "))
     int(input("hoeveel koppen thee?: ")) 
     int(input("hoeveel energiedrankjes?: "))
     int(input("hoeveel glazen cola?: "))
