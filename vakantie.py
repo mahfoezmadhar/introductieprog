@@ -18,10 +18,7 @@ def overnight_costs(nights: int) -> float:
 
 def total_costs(km: int, nights: int) -> int:
     """
-    Bepaalt de totale kosten op basis van de afstand en het aantal
-    nachten en rondt af naar hele euro's.
-    Deze functie delegeert zoveel mogelijk werk naar de andere
-    twee functies (roep die dus hier aan).
+    total_costs()
     """
     result = (overnight_costs(nights) + travel_costs(km))
     return round(result)
