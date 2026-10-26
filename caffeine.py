@@ -10,4 +10,4 @@ if __name__ == '__main__':
     int(input(hoeveel koppen coffee?: ))
     int(input(hoeveel koppen thee?: )) 
     int(input(hoeveel energiedrankjes?: ))
-    int(input())
+    int(input(hoeveel glazen cola?: ))
