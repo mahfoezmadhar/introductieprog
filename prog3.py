@@ -1,2 +1,1 @@
-
-print(abs(input('')))
+waarde = input('')
