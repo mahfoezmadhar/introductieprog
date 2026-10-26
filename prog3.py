@@ -1,1 +1,1 @@
-waarde = invoer
+waarde = invoer('')
