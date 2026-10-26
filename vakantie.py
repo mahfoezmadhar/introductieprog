@@ -25,5 +25,5 @@ def total_costs(km: int, nights: int) -> int:
 if __name__ == '__main__':
  travel_costs= int(input("hoever ga je weg in kilometers?: "))
  overnight_costs= int(input("hoeveel nachten is je verblijf?: "))
- result= int(overnight_costs * 0.60 + travel_costs * 0.13)
+ result= int(overnight_costs * 0.60 + travel_costs)
  print(f"jouw vakantie kost: {result}")
