@@ -21,7 +21,7 @@ def total_costs(km: int, nights: int) -> int:
     >>>total_costs(1250, 5)
     625
     >>> total_costs(800, 10)
-    
+    808
     """
     result = (overnight_costs(nights) + travel_costs(km))
     return round(result)
