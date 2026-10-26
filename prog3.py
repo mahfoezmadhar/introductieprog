@@ -1,2 +1,2 @@
 waarde = invoer('')
-print(abs(getal))
+print(abs(waarde))
