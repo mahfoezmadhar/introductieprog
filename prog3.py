@@ -1,2 +1,2 @@
-waarde = float(input(''))
+waarde = float(input('')
 print(abs(waarde))
