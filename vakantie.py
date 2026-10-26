@@ -20,6 +20,7 @@ def total_costs(km: int, nights: int) -> int:
     twee functies (roep die dus hier aan).
     """
     result = int(overnight_costs + travel_costs)
+    travel_costs
 
 if __name__ == '__main__':
  travel_costs= int(input("hoever ga je weg in kilometers?: "))
