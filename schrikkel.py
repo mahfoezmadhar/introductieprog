@@ -9,4 +9,4 @@ else:
   return False
   
 if __name__ == '__main__':
-int(input("voer jaartal in:"))
+int(input("Voer jaartal in:"))
