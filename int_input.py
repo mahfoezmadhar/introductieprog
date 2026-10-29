@@ -21,6 +21,7 @@ def get_min_int(n: int) -> int:
     
     """
     result = int("enter a number: ")
+    
         
 
 
