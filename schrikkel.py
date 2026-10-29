@@ -14,5 +14,5 @@ int(input("Voer jaartal in: "))
 if is_schrikkeljaar(jaar) == True:
     print("dit is een schrikkeljaar")
 else:
-    print(F " Dit is geen schrikkeljaar")
+    print(F " {jaar}Dit is geen schrikkeljaar")
     
