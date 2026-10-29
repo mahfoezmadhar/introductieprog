@@ -45,4 +45,4 @@ if __name__ == '__main__':
     else:
         print("Er is niks aan :(")
     if is_same_square == True:
-        print()
+        print("")
