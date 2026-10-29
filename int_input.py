@@ -1,4 +1,4 @@
-def get_positive_int(n: int) -> int:
+def get_positive_int() -> int:
     """
     
     """
