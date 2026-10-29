@@ -1,1 +1,2 @@
-n = 0
+print_collatz = 0
+n = 
