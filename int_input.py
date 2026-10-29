@@ -27,7 +27,8 @@ def get_min_int(minimum: int) -> int:
     return result
     
     
-def get_two_different_ints(a: int, b: int)
+def get_two_different_ints(a: int, b: int) -> int:
+    
         
     
         
