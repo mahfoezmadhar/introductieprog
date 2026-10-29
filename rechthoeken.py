@@ -34,5 +34,5 @@ if __name__ == '__main__':
     x1 = int(input("Geef de y2 van A: "))
     x1 = int(input("Geef de x1 van B: "))
     x1 = int(input("Geef de x2 van B: "))
-    x1 = int(input("Geef de y1 van A: "))
+    x1 = int(input("Geef de y1 van B: "))
     x1 = int(input("Geef de x1 van A: "))
