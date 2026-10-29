@@ -8,7 +8,7 @@ def is_acidic(ph : float) -> bool:
     
     """
     if ph < 7.0:
-     return True
+     return Truerue
     else:
      return false 
     
