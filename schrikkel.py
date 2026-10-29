@@ -14,7 +14,7 @@ True
   
 if __name__ == '__main__':
  jaar = int(input("Voer jaartal in: "))
- if is_schrikkeljaar(jaar) == True:
+ if is_schrikkel(jaar) == True:
     print(f"{jaar} is een schrikkeljaar")
  else:
     print(f"{jaar} is geen schrikkeljaar")
