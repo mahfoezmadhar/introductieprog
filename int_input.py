@@ -15,6 +15,7 @@ def get_any_int_but_0(n: int) -> int:
     while result == 0:
         result= int(input("enter a number except zero: "))
     return result
+
     
 def get_min_int(n: int) -> int:
     """
