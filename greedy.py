@@ -4,7 +4,7 @@ def count_coins(cents: int) -> int:
     waarmee het bedrag `cents` kan worden teruggegeven.
     """
     aantal25 = cents // 25 
-    aantal
+    aantal10 = cents // 10
 
 if __name__ == '__main__':
     <Vraag om het bedrag tot het geldig is, zet het om naar centen,
