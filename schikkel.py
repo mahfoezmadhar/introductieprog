@@ -1,1 +1,1 @@
-def is_schikkeljaar(jaar)
+def is_schikkeljaar(jaar:)
