@@ -40,3 +40,4 @@ if __name__ == '__main__':
     ay_length == calculate_length(ay2 - ay1)
     bx_length == calculate_length(bx2 - bx1)
     by_length == calculate_length(by2 - by1)
+    
