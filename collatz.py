@@ -9,7 +9,7 @@ def print_collatz(n):
         n = n * 3 + 1
     print(n)
 
-def collats_length(n)
+def collats_length(n):
  lengte = 1
  while n > 1:
     if n % 2 == 0:
