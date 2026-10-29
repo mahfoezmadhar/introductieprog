@@ -15,8 +15,6 @@ def count_coins(cents: int) -> int:
     
 
 if __name__ == '__main__':
-    <Vraag om het bedrag tot het geldig is, zet het om naar centen,
-    roep de functie aan en print het aantal munten>
     cents = float(input("hoeveel wisselgel moet er gegeven worden?: ")) * 100
     while cents >= 0:
       cents = float(input("hoeveel wisselgel moet er gegeven worden?: ")) * 100
