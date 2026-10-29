@@ -9,7 +9,7 @@ def print_collatz(n: int) -> None:
         n = n * 3 + 1
     print(n)
 
-def collatz_length(n):
+def collatz_length(n: int) -> int:
  lengte = 1
  while n > 1:
     if n % 2 == 0:
