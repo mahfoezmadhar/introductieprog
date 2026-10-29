@@ -47,3 +47,4 @@ if __name__ == '__main__':
     if is_same_square == True:
         print("De rechthoeken zijn gelijk!
         "En ze zijn ook nog vierkant!")
+    else
