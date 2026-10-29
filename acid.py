@@ -9,5 +9,5 @@ if __name__ == '__main__':
     ph = float(input("geef een pH-waarde: "))
     if is_acidic = true:
         print("het is een zuur")
-    
+    else:
     
