@@ -11,5 +11,5 @@ def check_answer(answer: str) -> bool:
         return False
 
 if __name__ == '__main__':
-    
+    answer
     
