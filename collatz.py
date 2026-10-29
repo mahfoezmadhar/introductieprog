@@ -9,4 +9,4 @@ def print_collatz(n):
         n = n * 3 + 1
     print(n)
 
-def collats_length
+def collats_length(n)
