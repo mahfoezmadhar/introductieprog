@@ -11,7 +11,7 @@ def count_coins(cents: int) -> int:
         aantal5 = cents // 5 
     while cents => 1:
         aantal1 = cents // 1
-    return aantal25 +aantal10 + aantal5 + aan
+    return aantal25 +aantal10 + aantal5 + aantal1
     
 
 if __name__ == '__main__':
