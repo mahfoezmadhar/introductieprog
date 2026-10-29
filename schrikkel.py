@@ -15,5 +15,5 @@ if __name__ == '__main__':
  if is_schrikkeljaar(jaar) == True:
     print("dit is een schrikkeljaar")
  else:
-    print(f "{jaar}: is geen schrikkeljaar")
+    print(f "{jaar} is geen schrikkeljaar")
     
