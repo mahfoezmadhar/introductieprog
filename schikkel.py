@@ -1,1 +1,1 @@
-def is_schikkeljaar(jaar:int)
+def is_schikkeljaar(jaar:int) -> bool
