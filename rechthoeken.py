@@ -38,4 +38,4 @@ if __name__ == '__main__':
     bx1 = int(input("Geef de y2 van B: "))
     ax_length == calculate_length(ax2 - ax1)
     ay_length == calculate_length(ay2 - ay1)
-    bx_length == calculate_length(by2 - b)
+    bx_length == calculate_length(bx2 - bx1)
