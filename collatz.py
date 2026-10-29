@@ -1,2 +1,2 @@
 print_collatz = 0
-n = 
+n = int(input())
