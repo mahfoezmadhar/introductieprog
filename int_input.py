@@ -31,7 +31,7 @@ def get_two_different_ints(a: int, b: int) -> int:
     result = int(input("kies 2 getallen: "))
     while a == b:
         result = int(input("kies 2 getallen: "))
-    
+    return result
         
         
     
