@@ -1,7 +1,7 @@
 def is_acidic(ph : float) -> bool:
    if ph < 7 
     return true
-    else return 
+    else return false 
     
 
 if __name__ == '__main__':
