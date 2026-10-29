@@ -1,6 +1,6 @@
 print_collatz = 0
 n = int(input())
 while n>1:
-    if n % 2 == 0
-     
+    if n % 2 == 0:
+        
 
