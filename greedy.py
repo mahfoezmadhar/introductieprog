@@ -19,7 +19,7 @@ if __name__ == '__main__':
     roep de functie aan en print het aantal munten>
     cents = float(input("hoeveel wisselgel moet er gegeven worden?: ")) * 100
     while cents => 0:
-    
+     
       cents = float(input("hoeveel wisselgel moet er gegeven worden?: ")) * 100
       
         
