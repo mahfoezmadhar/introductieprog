@@ -3,4 +3,4 @@ def is_schrikkeljaar(jaar: int) -> bool
 
 
 """
-if 
+if jaar % 4 
