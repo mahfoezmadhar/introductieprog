@@ -14,5 +14,6 @@ if __name__ == '__main__':
     answer = str(input("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?: "))
     if check_answer(answer) == 42 or check_answer(answer) == tweeenveertig or check_answer(answer) == tweeënveertig:
         print("ja")
-        
+    else:
+        print("")
     
