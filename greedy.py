@@ -18,7 +18,7 @@ if __name__ == '__main__':
     cents = float(input("hoeveel wisselgeld moet er gegeven worden?: ")) * 100
     while cents <= 0:
       cents = float(input("hoeveel wisselgeld moet er gegeven worden?: ")) * 100
-    print(co)
+    print(count_coins)
       
         
         
