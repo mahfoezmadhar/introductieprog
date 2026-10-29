@@ -6,7 +6,7 @@ def is_acidic(ph : float) -> bool:
     
     
     """
-    
+    is_acidic()
     
 
 if __name__ == '__main__':
