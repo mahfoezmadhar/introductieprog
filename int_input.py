@@ -32,7 +32,7 @@ def get_two_different_ints() -> tuple[int, int]:
     b = int(input("kies nog een getal uit: "))
     while a == b:
         a = int(input("kies een getal uit: "))
-    b = int(input("kies nog een getal uit: "))
+        b = int(input("kies nog een getal uit: "))
         
         
     
