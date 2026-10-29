@@ -44,3 +44,4 @@ if __name__ == '__main__':
         print("De rechthoeken zijn gelijk!")
     else:
         print("Er is niks aan :(")
+    
