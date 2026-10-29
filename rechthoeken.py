@@ -28,4 +28,4 @@ def calculate_length(c1: int, c2: int) -> int:
     return abs(c2 - c1)
 
 if __name__ == '__main__':
-    x1 = int(input())
+    x1 = int(input(""))
