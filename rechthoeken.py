@@ -4,7 +4,7 @@ def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length:
     """
     if ax_length * ay_length == bx_length * by_length:
         return True
-    
+    else
     
 
 def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> bool:
