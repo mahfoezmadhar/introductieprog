@@ -16,7 +16,8 @@ def get_any_int_but_0(n: int) -> int:
         result= int(input("enter a number except zero: "))
     return result
     
-def get_min_int(n: int) -> 
+def get_min_int(n: int) -> int:
+    
         
 
 
