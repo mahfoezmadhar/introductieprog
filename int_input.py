@@ -22,7 +22,7 @@ def get_min_int(minimum: int) -> int:
     
     """
     result = int(input("enter a number: "))
-    while result < get_min_int(minimum):
+    while result < minimum:
         result = int(input("enter a number: "))
     return result
     
