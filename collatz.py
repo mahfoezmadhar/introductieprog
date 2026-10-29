@@ -18,4 +18,7 @@ def collats_length(n):
         n = n * 3 + 1
     lengte += 1
  return lengte 
+ 
+print_collatz(3)
+print(collatz_length(3))
      
