@@ -16,7 +16,7 @@ if __name__ == '__main__':
     "het universum en alles daarbij?: "
      )
     if check_answer(answer) == True:
-        print("ja")
+        print("Ja")
     else:
         print("nee")
     
