@@ -28,6 +28,7 @@ def get_min_int(minimum: int) -> int:
     
     
 def get_two_different_ints() -> tuple[int, int]:
+    a = int(input())
         
         
     
