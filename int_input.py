@@ -6,6 +6,8 @@ def get_positive_int(n: int) -> int:
     while result < 0:
         result = int(input("enter a positive integer number: "))
     return result
+    
+def 
 
 
 
