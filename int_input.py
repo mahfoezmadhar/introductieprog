@@ -11,7 +11,7 @@ def get_any_int_but_0(n: int) -> int:
     """
     
     """
-    result=
+    result= int(input())
 
 
 
