@@ -10,7 +10,7 @@ def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length:
       
 def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> bool:
     """
-    >>> is_same_square()
+    >>> is_same_square(2, 2, 2, 2)
     
     """
     if (
