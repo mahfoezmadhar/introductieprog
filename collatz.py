@@ -1,4 +1,4 @@
-print_collatz = 0
+def print_collatz(n)
 n = int(input())
   while n>1:
     if n % 2 == 0:
