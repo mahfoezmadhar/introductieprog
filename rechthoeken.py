@@ -32,6 +32,7 @@ def calculate_length(c1: int, c2: int) -> int:
     """
     >>> calculate_length(8, 2)
     6
+    >>> calculate_length(3, 7)
     """
     return abs(c2 - c1)
 
