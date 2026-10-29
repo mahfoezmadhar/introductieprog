@@ -36,3 +36,4 @@ if __name__ == '__main__':
     bx1 = int(input("Geef de x2 van B: "))
     bx1 = int(input("Geef de y1 van B: "))
     bx1 = int(input("Geef de y2 van B: "))
+    
