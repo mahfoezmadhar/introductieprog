@@ -1,3 +1,4 @@
 print_collatz = 0
 n = int(input())
-while n % 2 = 0
+while n % 2 = 0:
+    
