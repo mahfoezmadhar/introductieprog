@@ -39,4 +39,4 @@ if __name__ == '__main__':
     ax_length == calculate_length(ax2 - ax1)
     ay_length == calculate_length(ay2 - ay1)
     bx_length == calculate_length(bx2 - bx1)
-    by_length == calculate_length()
+    by_length == calculate_length(())
