@@ -1,4 +1,4 @@
-def is_acidic(if ph < 7) -> bool:
+def is_acidic() -> bool:
    return true
     
 
