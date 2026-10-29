@@ -17,6 +17,7 @@ def count_coins(cents: int) -> int:
         aantal += 1
     return aantal
     
+    
 
 if __name__ == '__main__':
     cents = round(float(input("Hoeveel wisselgeld? ")) * 100)
