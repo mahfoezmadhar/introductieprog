@@ -8,6 +8,9 @@ def get_positive_int(n: int) -> int:
     return result
     
 def get_any_int_but_0(n: int) -> int:
+    """
+    
+    """
     
 
 
