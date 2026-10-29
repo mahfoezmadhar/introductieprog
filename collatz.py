@@ -19,6 +19,5 @@ def collatz_length(n: int) -> int:
     lengte += 1
  return lengte 
  
-print_collatz(3)
-print(collatz_length(3))
+
      
