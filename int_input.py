@@ -7,7 +7,7 @@ def get_positive_int(n: int) -> int:
         result = int(input("enter a positive integer number: "))
     return result
     
-def 
+def get_any_int_but_0()
 
 
 
