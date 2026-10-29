@@ -2,7 +2,7 @@ def is_schrikkel(jaar: int) -> bool:
   """
 >>> is_schrikkel(2025)
 False
->>> is_schrikkeljaar(2000)
+>>> is_schrikkel(2000)
 True
 
 
