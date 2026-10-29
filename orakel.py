@@ -3,7 +3,9 @@ def check_answer(answer: str) -> bool:
     Controleer of het antwoord op de vraag één van de opties
     42, tweeenveertig, of tweeënveertig is.
     """
-    if answer == 42 or answer == tweeenveertig or answer == tweeënveertig
+    if answer == 42 or answer == tweeenveertig or answer == tweeënveertig:
+        return True
+    
 
 if __name__ == '__main__':
     
