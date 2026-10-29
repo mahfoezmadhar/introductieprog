@@ -21,7 +21,7 @@ def get_min_int(n: int) -> int:
     
     """
     result = int(input("enter a number: "))
-    while result 
+    while result < minimum
     
         
 
