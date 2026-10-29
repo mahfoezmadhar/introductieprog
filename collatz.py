@@ -12,4 +12,4 @@ def print_collatz(n):
 def collats_length(n)
  lengte = 1
  while n > 1:
-     n 
+     n == 
