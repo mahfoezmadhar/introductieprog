@@ -4,7 +4,7 @@ def is_acidic(ph : float) -> bool:
     >>> is_acidic(7.5)
     False
     >>> is_acidic(2)
-    
+    True
     
     """
     if ph < 7.0:
