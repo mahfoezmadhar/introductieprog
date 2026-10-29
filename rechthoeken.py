@@ -43,4 +43,4 @@ if __name__ == '__main__':
     if is_same_rectangle == True:
         print("De rechthoeken zijn gelijk!")
     else:
-        print("")
+        print("Er is niks aan :(")
