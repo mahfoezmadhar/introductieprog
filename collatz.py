@@ -10,4 +10,4 @@ def print_collatz(n):
     print(n)
 
 def collats_length(n)
- n 
+ n = 1
