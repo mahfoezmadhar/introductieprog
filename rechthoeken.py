@@ -41,4 +41,4 @@ if __name__ == '__main__':
     bx_length == calculate_length(bx2 - bx1)
     by_length == calculate_length(by2 - by1)
     if is_same_rectangle == True:
-        print
+        print()
