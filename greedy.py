@@ -1,6 +1,6 @@
 def count_coins(cents: int) -> int:
     """
-    
+    count_coins()
   
     aantal = 0
     while cents >= 25:
