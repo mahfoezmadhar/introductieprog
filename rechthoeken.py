@@ -42,4 +42,5 @@ if __name__ == '__main__':
     by_length == calculate_length(by2 - by1)
     if is_same_rectangle == True:
         print("De rechthoeken zijn gelijk!")
+    else:
         
