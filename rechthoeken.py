@@ -44,7 +44,7 @@ if __name__ == '__main__':
         print("De rechthoeken zijn gelijk!")
     else:
         print("Er is niks aan :(")
-    if is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length):
+    if is_same_square(ax_length: int, ay_length: int, bx_length, by_length):
         print("De rechthoeken zijn gelijk!En ze zijn ook nog vierkant!")
     else:
         print("Er is niks aan :(")
