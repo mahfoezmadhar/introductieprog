@@ -11,7 +11,7 @@ else:
   return False
   
 if __name__ == '__main__':
-int(input("Voer jaartal in: "))
+ int(input("Voer jaartal in: "))
 if is_schrikkeljaar(jaar) == True:
     print("dit is een schrikkeljaar")
 else:
