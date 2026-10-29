@@ -8,7 +8,7 @@ def count_coins(cents: int) -> int:
         aantal += 1
     while cents >= 10:
         cents -= 10 
-        aantal10 += 1 
+        aantal += 1 
     while cents >= 5:
         cents -= 5 
         aantal5 += 1 
