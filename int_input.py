@@ -2,7 +2,7 @@ def get_positive_int(n: int) -> int:
     """
     
     """
-    result = int(input())
+    result = int(input(""))
 
 
 
