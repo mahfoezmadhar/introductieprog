@@ -4,7 +4,7 @@ def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length:
     """
     if (ax_length == bx_length and ay_length = by_length) 
     or (ax_length != ay_length and bx_length != by_length)
-    or
+    or ()
         return True
     else: 
         return False
