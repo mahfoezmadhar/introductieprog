@@ -40,10 +40,7 @@ if __name__ == '__main__':
     ay_length = calculate_length(ay2, ay1)
     bx_length = calculate_length(bx2, bx1)
     by_length = calculate_length(by2, by1)
-    if is_same_rectangle == True:
-        print("De rechthoeken zijn gelijk!")
-    else:
-        print("Er is niks aan :(")
+ 
     if is_same_rectangle(ax_length, ay_length, bx_length, by_length) == True:
         print("De rechthoeken zijn gelijk!En ze zijn ook nog vierkant!")
         if is_same_square(ax_length, ay_length, bx_length, by_length) == True:
