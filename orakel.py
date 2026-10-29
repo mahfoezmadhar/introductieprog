@@ -15,5 +15,5 @@ if __name__ == '__main__':
     if check_answer(answer) == 42 or check_answer(answer) == tweeenveertig or check_answer(answer) == tweeënveertig:
         print("ja")
     else:
-        print("")
+        print("nee")
     
