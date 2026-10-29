@@ -14,7 +14,7 @@ if __name__ == '__main__':
     answer = input(
     "Wat is het antwoord op de grote vraag van het leven, "
     "het universum en alles daarbij?: "
-)
+     )
     if check_answer(answer) == True:
         print("ja")
     else:
