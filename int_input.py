@@ -28,7 +28,7 @@ def get_min_int(minimum: int) -> int:
     
     
 def get_two_different_ints(a: int, b: int) -> int:
-    result = int(input())
+    result = int(input("kies 2 getallen: "))
         
     
         
