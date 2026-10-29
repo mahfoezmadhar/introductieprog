@@ -1,1 +1,1 @@
-print
+print_collatz(n)
