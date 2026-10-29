@@ -1,5 +1,5 @@
 def is_acidic(if ph < 7) -> bool:
-    """"
+   return true
     
 
 if __name__ == '__main__':
