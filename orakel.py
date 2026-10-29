@@ -5,7 +5,7 @@ def check_answer(answer: str) -> bool:
     """
     if answer == 42 or answer == tweeenveertig or answer == tweeënveertig:
         return True
-    
+    else
 
 if __name__ == '__main__':
     
