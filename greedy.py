@@ -9,7 +9,8 @@ def count_coins(cents: int) -> int:
         aantal10 = cents // 10 
     while cents => 5:
         aantal5 = cents // 5 
-    while 
+    while cents => 1:
+        
     
 
 if __name__ == '__main__':
