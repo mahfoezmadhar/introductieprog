@@ -1,1 +1,1 @@
-print_collatz(n)
+print_collatz(n) =
