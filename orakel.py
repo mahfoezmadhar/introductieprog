@@ -18,5 +18,5 @@ if __name__ == '__main__':
     if check_answer(answer) == True:
         print("Ja")
     else:
-        print("nee")
+        print("Nee")
     
