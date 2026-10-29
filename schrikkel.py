@@ -8,4 +8,4 @@ if (jaar % 4 == 0 and jaar % 100 !=0) or jaar % 400 = 0
 else
   return False
   
-if __name__ == '__main__' if __name__ == '__main__':
+if __name__ == '__main__':
