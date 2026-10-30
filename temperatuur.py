@@ -14,7 +14,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     Print de conversie-tabel.
     """
     if old_type.upper() == "C":
-        print(f"{'C':>10}")
+        print(f"{'C':>10}"{})
     else:
         print(f"{'F':>10}")
 
