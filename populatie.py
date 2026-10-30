@@ -17,8 +17,6 @@ if __name__ == '__main__':
         start_size = int(input("Startgrootte: "))
     
     end_size = int(input("Eindgrootte: "))
-    while start_size <= 9:
-        start_size = int(input("Startgrootte: "))
     while end_size < start_size:
         end_size = int(input("Eindgrootte: "))
     print(f"Jaren: {calculate_years(start_size, end_size)} ")   
