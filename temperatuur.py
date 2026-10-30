@@ -19,7 +19,8 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         print(f"{'F':>10}")
 
     
-    if for temperatuur in range(begin_temp, end_temp + 1, step_size):
+    if end_temp > old_temp:
+        for temperatuur in range(begin_temp, end_temp + 1, step_size):
         omgerekend = convert_temperature(old_type, temperatuur)
         print(f"{temperatuur:>10}{omgerekend:>10}")
 
