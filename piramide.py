@@ -3,6 +3,7 @@ for rij in range(aantal + 1):
     print('#', end='')
     kolom = 0
     
+    
 
 
     
