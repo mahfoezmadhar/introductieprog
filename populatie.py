@@ -10,4 +10,4 @@ def calculate_years(start_size: int, end_size: int) -> int:
     return jaar
 
 if __name__ == '__main__':
-    <Hoofdprogramma>
+    
