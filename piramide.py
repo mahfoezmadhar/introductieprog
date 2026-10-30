@@ -1,4 +1,4 @@
-aantal = int(input("Hoe hoog moet de piramide zijn? ")) 
+aantal = int(input("Hoe hoog moet de piramide zijn? ")) -> int
 
 for rij in range(1, aantal + 1):
     for spatie in range(aantal - rij):
