@@ -4,7 +4,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     de temperatuur van het nieuwe type.
     """
     if convert_temperature.upper == "C":
-        return int((10  - 320) // 18)
+        return int((10 * old_temp - 320) // 18)
     else:
         return int((18C + 320) / 10)
     
