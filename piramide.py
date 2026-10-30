@@ -1,1 +1,1 @@
-aantal = int(input())
+aantal = int(input("Hoe hoog moet de piramide zijn?: "))
