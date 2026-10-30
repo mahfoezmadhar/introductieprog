@@ -12,7 +12,7 @@ def print_piramide(aantal: int) -> None:
 
         hekje = 0
         while hekje < rij + 1:
-        print('#', end='')
+            print('#', end='')
         hekje += 1
 
     print()
