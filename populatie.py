@@ -15,5 +15,7 @@ if __name__ == '__main__':
     while start_size <= 9:
         start_size = int(input("Startgrootte: "))
     while end_size < start_size:
+        start_size = int(input("Startgrootte: "))
+    end_size = int(input("Eindgrootte: "))
         
         
