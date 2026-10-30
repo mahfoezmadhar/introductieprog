@@ -6,7 +6,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     if convert_temperature.upper == "C":
         return int((10 * old_temp - 320) // 18)
     else:
-        return int((18C + 320) / 10)
+        return int((18 * old_temp + 320) / 10)
     
 
 def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
