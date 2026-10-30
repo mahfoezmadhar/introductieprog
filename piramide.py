@@ -7,13 +7,15 @@ def print_piramide(aantal: int) -> None:
     ###
     """
     for rij in range(1, aantal + 1):
-        for spatie in range(aantal - rij):
-            print(' ', end='')
+    for spatie in range(aantal - rij):
+        print(' ', end='')
 
-        for hekje in range(rij + 1):
-            print('#', end='')
+    hekje = 0
+    while hekje < rij + 1:
+        print('#', end='')
+        hekje += 1
 
-        print()
+    print()
 
 
 if __name__ == '__main__':
