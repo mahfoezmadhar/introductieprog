@@ -14,7 +14,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     Print de conversie-tabel.
     """
     if convert_temperature.upper() == "C":
-        pring(f"{letter:>10}")
+        print(f"{letter:>10}")
     
     for temperatuur in range(begin_temp, end_temp + 1, step_size):
         omgerekend = convert_temperature(old_type, temperatuur)
