@@ -19,6 +19,10 @@ def print_piramide(aantal: int) -> None:
 
 if __name__ == '__main__':
     aantal = int(input("Hoe hoog moet de piramide zijn? "))
+
+    while aantal <= 0 or aantal > 23:
+        aantal = int(input("Hoe hoog moet de piramide zijn? "))
+
     print_piramide(aantal)
 
 
