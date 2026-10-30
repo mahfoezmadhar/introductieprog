@@ -15,8 +15,8 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     
     for temperatuur in range(begin_temp, end_temp + 1, step_size):
-    omgerekend = convert_temperature(old_type, temperatuur)
-    print(f"{temperatuur:>5}{omgerekend:>5}")
+        omgerekend = convert_temperature(old_type, temperatuur)
+        print(f"{temperatuur:>5}{omgerekend:>5}")
 
 if __name__ == '__main__':
     <Hoofdprogramma>        
