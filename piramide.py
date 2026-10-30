@@ -10,8 +10,8 @@ def print_piramide(aantal: int) -> None:
         for spatie in range(aantal - rij):
             print(' ', end='')
 
-    hekje = 0
-    while hekje < rij + 1:
+        hekje = 0
+        while hekje < rij + 1:
         print('#', end='')
         hekje += 1
 
