@@ -16,7 +16,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     if old_type.upper() == "C":
         print(f"{'C':>10}{'F':>10}")
     else:
-        print(f"{'F':>10}")
+        print(f"{'F':>10}{'C':>10}")
 
     
     if end_temp > begin_temp:
