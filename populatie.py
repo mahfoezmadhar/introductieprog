@@ -17,5 +17,5 @@ if __name__ == '__main__':
     while end_size < start_size:
         start_size = int(input("Startgrootte: "))
         end_size = int(input("Eindgrootte: "))
-    print(f"jaren: {calculate_years(start_size, end_size} ")   
+    print(f"jaren: {calculate_years(start_size, end_size)} ")   
         
