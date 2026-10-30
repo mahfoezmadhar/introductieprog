@@ -1,10 +1,11 @@
 aantal = int(input("Hoe hoog moet de piramide zijn?: "))
-for rij in range(aantal + 1):
-    kolom = aantal + 1
-    
-    while kolom >= rij + 1:
-        print('', end='')
-        kolom += 1
+for rij in range(1, aantal + 1):
+    for spatie in range(...):
+        print(' ', end='')
+
+    for hekje in range(...):
+        print('#', end='')
+
     print()
 
 
