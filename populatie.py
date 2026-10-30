@@ -1,6 +1,6 @@
 def calculate_years(start_size: int, end_size: int) -> int:
     """
-    
+    >>> calculate_years(1200, 1300)
     """
     jaren = 0
     while start_size < end_size:
