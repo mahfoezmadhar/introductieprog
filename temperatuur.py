@@ -15,8 +15,8 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     
     for temperatuur in range(begin_temp, end_temp + 1, step_size):
-        while temperatuur < end_temp
-        con    
+        while temperatuur < end_temp:
+            convert_temperature()
 
 if __name__ == '__main__':
     <Hoofdprogramma>        
