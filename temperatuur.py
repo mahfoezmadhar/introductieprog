@@ -5,7 +5,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     """
     C = (10F - 320) / 18
     F = (18C + 320) / 10
-    for c in range()
+    for c in range(0)
 
 def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
     """
