@@ -15,7 +15,7 @@ def print_piramide(aantal: int) -> None:
             print('#', end='')
             hekje += 1
 
-    print()
+        print()
 
 if __name__ == '__main__':
     aantal = int(input("Hoe hoog moet de piramide zijn? "))
