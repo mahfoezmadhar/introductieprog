@@ -14,7 +14,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     Print de conversie-tabel.
     """
     for temperatuur in range(begin_temp, end_temp + 1, step_size):
-        while temperatuur 
+        while temperatuur < 
             
 
 if __name__ == '__main__':
