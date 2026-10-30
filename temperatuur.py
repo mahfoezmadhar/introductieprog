@@ -13,7 +13,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     Print de conversie-tabel.
     """
-    for 
+    for temperatuur in range()
 
 if __name__ == '__main__':
     <Hoofdprogramma>        
