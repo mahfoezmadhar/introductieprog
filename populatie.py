@@ -16,6 +16,6 @@ if __name__ == '__main__':
         start_size = int(input("Startgrootte: "))
     while end_size < start_size:
         start_size = int(input("Startgrootte: "))
-    end_size = int(input("Eindgrootte: "))
+        end_size = int(input("Eindgrootte: "))
         
         
