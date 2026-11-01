@@ -28,3 +28,4 @@ if __name__ == '__main__':
     old_type = input("Welke eenheid van temperatuur (C of F)?: ") 
     begin_temp = input("Wat is de begintemperatuur?: ")
     end_temp = input("Wat is de eindtemperatuur?: ")
+    while 
