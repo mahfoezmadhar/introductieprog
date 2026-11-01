@@ -28,7 +28,7 @@ if __name__ == '__main__':
     old_type = input("Welke eenheid van temperatuur (C of F)?: ") 
     begin_temp = int(input("Wat is de begintemperatuur?: "))
     end_temp = int(input("Wat is de eindtemperatuur?: "))
-    step_size = input()
+    step_size = int(input()
     while begin_temp > end_temp:
         print(old_type.upper())
     
