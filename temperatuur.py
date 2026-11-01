@@ -30,3 +30,4 @@ if __name__ == '__main__':
     end_temp = input("Wat is de eindtemperatuur?: ")
     while begin_temp > end_temp:
         print(old_type.upper())
+    
