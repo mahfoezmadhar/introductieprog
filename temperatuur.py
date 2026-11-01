@@ -32,5 +32,5 @@ if __name__ == '__main__':
     while begin_temp > end_temp:
         print(old_type.upper())
     while step_size <= 0:
-        
+        int(inpuit)
     
