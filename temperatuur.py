@@ -33,5 +33,5 @@ if __name__ == '__main__':
     print_table(old_type, begin_temp, end_temp, step_size)
     while step_size <= 0:
         int(input("Wat is de stapgrootte?: "))
-    print(print_table(old_type, begin_temp, end_temp, step_size))
+        print(print_table(old_type, begin_temp, end_temp, step_size))
     
