@@ -31,7 +31,7 @@ if __name__ == '__main__':
     end_temp = int(input("Wat is de eindtemperatuur?: "))
     step_size = int(input("Wat is de stapgrootte?: "))
     if begin_temp > end_temp:
-        print(print_table(old_type, begin_temp, end_temp, step_size))
+        print_table(old_type, begin_temp, end_temp, step_size))
     while step_size <= 0:
         int(input("Wat is de stapgrootte?: "))
     print(print_table(old_type, begin_temp, end_temp, step_size))
