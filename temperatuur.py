@@ -25,4 +25,4 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
                 print(f"{temperatuur:>10}{omgerekend:>10}")
 
 if __name__ == '__main__':
-    input        
+    input()        
