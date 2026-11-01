@@ -16,7 +16,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     if old_type.upper() == "C":
         print(f"{'C':>3} | {'F':>3}")
     else:
-        print(f"{'F':>3} | {'C':>1}")
+        print(f"{'F':>3} | {'C':>3}")
 
     if end_temp > begin_temp:
         for temperatuur in range(begin_temp, end_temp + 1, step_size):
