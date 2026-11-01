@@ -4,7 +4,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     50
     >>> convert_temperature("F", 32)
     0
-    >>> convert_temperature("f", )
+    >>> convert_temperature("F", )
     """
     if old_type.upper() == "C":
         return int((18 * old_temp + 320) / 10)
