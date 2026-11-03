@@ -9,6 +9,7 @@ def meal(time: str) -> str | None:
     while uur >= 12 and uur <= 13:
         return lunch
     while uur >= 18 and uur <= 19:
+        return 
     
         
 
