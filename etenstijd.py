@@ -5,11 +5,14 @@ def meal(time: str) -> str | None:
     >>> meal("07:00")
     1
     """
-    while int(uur) >= 7 and uur <= 8:
+    uur, minuut = time.split(":")
+    uur = int(uur)
+    minuut = int(minuut)
+    while uur >= 7 and uur <= 8:
         return 1
-    while int(uur) >= 12 and uur <= 13:
+    while uur >= 12 and uur <= 13:
         return 2
-    while int(uur) >= 18 and uur <= 19:
+    while uur >= 18 and uur <= 19:
         return 3
     return None
     
