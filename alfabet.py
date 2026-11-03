@@ -5,13 +5,14 @@ def compare(word1: str, word2: str) -> int:
     >>> compare("taylor", "lana")
     1
     """
-    for letter1, letter2 in zip(word1, word2):
-        letter1 = letter1.lower()
-        letter2 = letter2.lower()
+        for i in range(min(len(word1), len(word2))):
+        letter1 = word1[i].lower()
+        letter2 = word2[i].lower()
+
         if letter1 > letter2:
-            return 1 
+            return 1
         elif letter1 < letter2:
-            return -1 
+            return -1
     if len(word1) > len(word2):
         return 1
     elif len(word2) > len(word1):
