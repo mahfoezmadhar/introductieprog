@@ -3,6 +3,7 @@ def meal(time: str) -> str | None:
     >>> meal(18:53)
     3
     >>> meal(07:00)
+    
     """
     uur, minuut = time.split(":")
     uur = int(uur)
