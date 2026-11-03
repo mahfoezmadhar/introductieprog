@@ -1,6 +1,7 @@
 def evaluate(x: int, y: str, z: int) -> float:
     """
     >>> 3 * 5
+    15
     """
     x = int(x)
     z = int(z)
