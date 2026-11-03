@@ -4,7 +4,7 @@ def meal(time: str) -> str | None:
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
     uur, minuut = timer.split(":")
-    for ontbijt in range()
+    while ontbijt
 
 if __name__ == '__main__':
     <Vraag hier de gebruiker om invoer, roep je functie aan en print het antwoord>
