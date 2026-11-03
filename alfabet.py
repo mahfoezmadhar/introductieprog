@@ -11,7 +11,7 @@ def compare(word1: str, word2: str) -> int:
             return -1 
         if len(word1) > len(word2):
             return -1
-        elif
+        elif len(word2) < len(word1)
         return 0
 
 if __name__ == '__main__':
