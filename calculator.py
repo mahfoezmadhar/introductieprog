@@ -12,4 +12,4 @@ def evaluate(x: int, y: str, z: int) -> float:
         return float(x / z)
 
 if __name__ == '__main__':
-    <Invoer, verwerken, functie, uitvoer>
+    invoer = input()
