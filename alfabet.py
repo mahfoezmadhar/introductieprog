@@ -6,7 +6,7 @@ def compare(word1: str, word2: str) -> int:
     1
     """
     for i < len(word1) and i < len(word2):
-        
+        letter1 = 
 
         if letter1 > letter2:
             return 1
