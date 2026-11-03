@@ -5,7 +5,7 @@ def compare(word1: str, word2: str) -> int:
     >>> compare("taylor", "lana")
     1
     """
-    for i < len(word1)
+    for i < len(word1) and i < len(word2)
 
         if letter1 > letter2:
             return 1
