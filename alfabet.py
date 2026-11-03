@@ -2,7 +2,7 @@ def compare(word1: str, word2: str) -> int:
     """
     >>> compare(shark, sword)
     -1
-    >>> compare()
+    >>> compare(taylor, lana)
     """
     for letter1, letter2 in zip(word1, word2):
         letter1 = letter1.lower()
