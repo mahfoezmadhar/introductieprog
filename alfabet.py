@@ -6,7 +6,7 @@ def compare(word1: str, word2: str) -> int:
         letter1 = letter1.lower()
         letter2 = letter2.lower()
         if letter1 > letter2:
-            return letter
+            return 1
 
 if __name__ == '__main__':
     <Hoofdprogramma>
