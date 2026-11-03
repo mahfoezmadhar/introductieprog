@@ -1,6 +1,6 @@
 def meal(time: str) -> str | None:
     """
-    >>> meal(18:53)
+    >>> meal("18:53)
     3
     >>> meal(07:00)
     1
