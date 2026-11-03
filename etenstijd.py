@@ -6,7 +6,8 @@ def meal(time: str) -> str | None:
     uur, minuut = timer.split(":")
     while uur >= 7 and uur <= 8:
         return ontbijt
-    while uur >= 12 and uur <= 13
+    while uur >= 12 and uur <= 13:
+        
         
 
 if __name__ == '__main__':
