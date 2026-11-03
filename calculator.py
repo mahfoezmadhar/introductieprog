@@ -14,4 +14,4 @@ def evaluate(x: int, y: str, z: int) -> float:
 if __name__ == '__main__':
     invoer = input()
     x, y, z = invoer.split()
-    print({})
+    print({evaluate(x, y, z)})
