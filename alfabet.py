@@ -21,3 +21,4 @@ if __name__ == '__main__':
     if compare(word1, word2) == 1:
         print(f"{word2} first")
     if compare(word1, word2) == -1:
+        
