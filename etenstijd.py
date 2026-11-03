@@ -20,4 +20,4 @@ if __name__ == '__main__':
     time = input("Hoe laat is het?: ")
     if meal(time) == ontbijt:
         print("Het is tijd voor ontbijt")\
-    if me
+    if meal(time)
