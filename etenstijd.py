@@ -4,8 +4,6 @@ def meal(time: str) -> str | None:
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
     uur, minuut = time.split(":")
-    uur = int(uur)
-    minuut = int(minuut)
     while uur >= 7 and uur <= 8:
         return ontbijt
     while uur >= 12 and uur <= 13:
