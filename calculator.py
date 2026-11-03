@@ -4,7 +4,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     x, y, z = x, y, z.split()
     if x > 0 or x < 0:
-        returnx
+        return x
 
 if __name__ == '__main__':
     <Invoer, verwerken, functie, uitvoer>
