@@ -1,4 +1,4 @@
-def evaluate(x: int, y: str, z: int) -> intfloat:
+def evaluate(x: int, y: str, z: int) -> int | float:
     """
     >>> evaluate(3, "*", 5)
     15.0
