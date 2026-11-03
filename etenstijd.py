@@ -3,7 +3,7 @@ def meal(time: str) -> str | None:
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
-    uur, minuut = timer.split(":")
+    uur, minuut = time.split(":")
     uur = int(uren)
     minuut = int(minuten)
     while uur >= 7 and uur <= 8:
