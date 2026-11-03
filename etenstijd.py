@@ -23,4 +23,4 @@ if __name__ == '__main__':
     if meal(time) == lunch:
         print("Het is tijd voor lunch")
     if meal(time) == avondeten:
-        print("")
+        print("Het is tijd voor avondeten")
