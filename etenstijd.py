@@ -5,7 +5,7 @@ def meal(time: str) -> str | None:
     """
     uur, minuut = timer.split(":")
     while uur >= 7 and uur <= 8:
-        
+        return 
         
 
 if __name__ == '__main__':
