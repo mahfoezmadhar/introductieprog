@@ -8,7 +8,7 @@ def evaluate(x: int, y: str, z: int) -> float:
         return float(x * z)
     elif y == "-":
         return float(x - z)
-    elif 
+    elif y == 
 
 if __name__ == '__main__':
     <Invoer, verwerken, functie, uitvoer>
