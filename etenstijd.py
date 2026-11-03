@@ -1,6 +1,6 @@
 def meal(time: str) -> str | None:
     """
-    >>>
+    >>> meal(time)
     """
     uur, minuut = time.split(":")
     uur = int(uur)
