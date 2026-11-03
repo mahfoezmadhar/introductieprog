@@ -8,6 +8,7 @@ def meal(time: str) -> str | None:
         return ontbijt
     while uur >= 12 and uur <= 13:
         return lunch
+    
         
 
 if __name__ == '__main__':
