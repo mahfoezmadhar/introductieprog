@@ -5,6 +5,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>>evaluate(4, "/", 8)
     0.5
     >>>evaluate(7, "+", 8)
+    15
     """
     x = int(x)
     z = int(z)
