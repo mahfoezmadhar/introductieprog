@@ -8,7 +8,7 @@ def meal(time: str) -> str | None:
     uur, minuut = time.split(":")
     while int(uur) >= 7 and uur <= 8:
         return 1
-    while uur >= 12 and uur <= 13:
+    while (uur) >= 12 and uur <= 13:
         return 2
     while uur >= 18 and uur <= 19:
         return 3
