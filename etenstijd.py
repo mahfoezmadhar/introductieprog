@@ -1,3 +1,3 @@
 email = "pyprog@proglab.nl"
 user, domain = email.split("@")
-print(domain, email)
+print(user, domain)
