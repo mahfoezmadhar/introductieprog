@@ -2,7 +2,7 @@ def compare(word1: str, word2: str) -> int:
     """
 
     """
-    for i in :
+    for :
         if chr
 
 if __name__ == '__main__':
