@@ -3,7 +3,7 @@ def meal(time: str) -> str | None:
     >>> meal("18:53")
     "avondeten"
     >>> meal("07:00")
-    "ontbijt'
+    'ontbijt'
     """
     uur, minuut = time.split(":")
     if int(uur) == 7 or (int(uur) == 8 and int(minuut) == 0):
