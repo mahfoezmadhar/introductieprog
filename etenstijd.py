@@ -22,5 +22,5 @@ if __name__ == '__main__':
         print("Het is tijd voor ontbijt")
     elif meal(time) == 'lunch':
         print("Het is tijd voor lunch")
-    elif meal(time) == 3:
+    elif meal(time) == 'avondeten':
         print("Het is tijd voor avondeten")
