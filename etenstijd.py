@@ -1,4 +1,4 @@
-def meal(time: str) -> str | None:
+def meal(time: str) -> int | None:
     """
     >>> meal("18:53")
     3
