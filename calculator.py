@@ -4,7 +4,8 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     if y == "+":
         return float(x + z)
-    elif y == "*"
+    elif y == "*":
+        return float()
 
 if __name__ == '__main__':
     <Invoer, verwerken, functie, uitvoer>
