@@ -10,7 +10,7 @@ def meal(time: str) -> int | None:
         return 1
     if int(uur) >= 12 or (int(uur) == 13 and int(minuut) == 0): 
         return 2
-    if int(uur) >= 18 or (int(uur) == 19 and int(minuut) == 0):
+    if int(uur) == 18 or (int(uur) == 19 and int(minuut) == 0):
         return 3
     return None
     
