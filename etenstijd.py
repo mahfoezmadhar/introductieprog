@@ -24,5 +24,3 @@ if __name__ == '__main__':
         print("Het is tijd voor lunch")
     elif meal(time) == 3:
         print("Het is tijd voor avondeten")
-    else:
-        print(" ")
