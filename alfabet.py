@@ -18,4 +18,4 @@ def compare(word1: str, word2: str) -> int:
 if __name__ == '__main__':
     input("Woord 1: ")
     input("Woord 2: ")
-    
+    fi compare(word)
