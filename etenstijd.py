@@ -11,7 +11,7 @@ def meal(time: str) -> int | None:
     if int(uur) == 12 or (int(uur) == 13 and int(minuut) == 0): 
         return "lunch"
     if int(uur) == 18 or (int(uur) == 19 and int(minuut) == 0):
-        return avondeten"
+        return "avondeten"
     return None
     
         
