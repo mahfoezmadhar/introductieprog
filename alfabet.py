@@ -9,7 +9,7 @@ def compare(word1: str, word2: str) -> int:
             return 1 
         elif letter1 < letter2:
             return -1 
-        
+    return 0
 
 if __name__ == '__main__':
     <Hoofdprogramma>
