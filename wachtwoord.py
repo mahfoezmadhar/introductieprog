@@ -38,7 +38,9 @@ def check_number(password: str) -> bool:
     while i < len(password):
         letter = password[i]
         if letter.isdigit == True:
-            return
+            return True
+        else:
+            return Fa;se
     
 
 def check_password(password: str) -> bool:
