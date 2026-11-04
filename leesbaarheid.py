@@ -49,6 +49,6 @@ if __name__ == '__main__':
     if calculate_grade(text) > 16:
         print("Grade 16+")
     if calculate_grade(text) < 1:
-        print("")
+        print("Grade 1")
     
     
