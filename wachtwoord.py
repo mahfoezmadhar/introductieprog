@@ -19,7 +19,7 @@ def check_letter(password: str) -> bool:
     i = 0
     while i < len(password):
         letter = password[i]
-        if 
+        if letter ==
 
 def check_number(password: str) -> bool:
     """
