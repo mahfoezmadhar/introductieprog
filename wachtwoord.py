@@ -22,7 +22,7 @@ def check_letter(password: str) -> bool:
     >>> check_letter("abc")
     False
     """
-    bevathoofdletter = True
+    bevathoofdletter = False
     bevatkleineletter = True
     for hoofdletter in password:
         if hoofdletter.isupper() == True:
