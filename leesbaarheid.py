@@ -38,6 +38,6 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     letters = aantal_letters
     L = 100 * (letters / words)
     S = 100 * (sentences / words)
-    
+    CLI
 if __name__ == '__main__':
     <Hoofdprogramma>
