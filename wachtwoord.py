@@ -40,7 +40,6 @@ def check_number(password: str) -> bool:
             return True
         else:
             i += 1
-    return False
     
 
 def check_password(password: str) -> bool:
