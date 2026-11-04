@@ -34,6 +34,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     Berekent de index volgens de Coleman Liau-formule.
     """
     words = aantal_woorden
-    sentences = aantal
+    sentences = aantal_zinnen
+    
 if __name__ == '__main__':
     <Hoofdprogramma>
