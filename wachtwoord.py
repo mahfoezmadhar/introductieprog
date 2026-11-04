@@ -23,7 +23,7 @@ def check_letter(password: str) -> bool:
             return True
         else: 
             return False
-        i = i + 1
+        i += 1
 
 def check_number(password: str) -> bool:
     """
