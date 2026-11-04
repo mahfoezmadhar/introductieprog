@@ -23,7 +23,7 @@ def check_letter(password: str) -> bool:
             return True
         else: 
             return False
-        elif letter.islower == True:
+        if letter.islower == True:
             return True
         else:
             return False
