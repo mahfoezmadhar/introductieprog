@@ -27,7 +27,7 @@ def calculate_grade(text: str) -> int:
         if zinnen == "." or zinnen == "?" or zinnen == "!":
             aantal_zinnen += 1
             return aantal_zinnen
-    return round(coleman_liau(words, sentences, letters) + 0.
+    return round(coleman_liau(words, sentences, letters) + 0.5)
             
             
         
