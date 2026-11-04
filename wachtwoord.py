@@ -32,9 +32,11 @@ def check_number(password: str) -> bool:
     Controleer of het wachtwoord een cijfer bevat.
     Gebruik een loop om door password te lopen.
     """
-    if hoofsletter.isupper == True:
+    for hoofdletter in password:
+        if hoofsletter.isupper == True:
             return True
         else:
+            return False
     
 
 def check_password(password: str) -> bool:
