@@ -33,6 +33,7 @@ def check_number(password: str) -> bool:
     i = 0
     while i < len(password):
         letter = password[i]
+        
     
 
 def check_password(password: str) -> bool:
