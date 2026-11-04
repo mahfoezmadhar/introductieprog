@@ -12,7 +12,7 @@ def calculate_grade(text: str) -> int:
     ...     "Horatio, than are dreamt of in your philosophy.")
     
     """
-    for i in range(len(text))
+    for i in range(minlen(text))
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
