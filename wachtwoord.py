@@ -52,7 +52,7 @@ def check_password(password: str) -> bool:
         and check_number(password) == True
     ):
         
-            return True
+        return True
     else:
         
         
