@@ -24,7 +24,7 @@ def calculate_grade(text: str) -> int:
     for zinnen in text:
         if zinnen == "." or zinnen == "?" or zinnen == "!":
             aantal_zinnen += 1
-    
+    return
             
             
         
