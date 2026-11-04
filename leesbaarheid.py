@@ -26,7 +26,8 @@ def calculate_grade(text: str) -> int:
             aantal_zinnen += 1
     return(
         aantal_letters, aantal_woorden, aantal_zinnen
-        , round(coleman_liau(words, sentences, letters) + 0.5)
+        , round(coleman_liau(words, sentences, letters) + 0.5
+        )
             
             
         
