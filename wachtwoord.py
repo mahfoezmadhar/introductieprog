@@ -63,3 +63,5 @@ if __name__ == '__main__':
     input("Geef een wachtwoord: ")
     if check_password(password) == True:
         print("Het gegeven wachtwoord is valide.")
+    else:
+        print("")
