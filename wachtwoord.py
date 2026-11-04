@@ -33,8 +33,10 @@ def check_letter(password: str) -> bool:
 
 def check_number(password: str) -> bool:
     """
-    Controleer of het wachtwoord een cijfer bevat.
-    Gebruik een loop om door password te lopen.
+    >>> check_number("abc1")
+    True
+    >>> check_number("abcdef")
+    False
     """
     for digit in password:
         if digit.isdigit() == True:
