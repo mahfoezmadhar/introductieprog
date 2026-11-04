@@ -17,9 +17,10 @@ def check_length(password: str) -> bool:
 
 def check_letter(password: str) -> bool:
     """
-    Controleer of het wachtwoord zowel een grote als een
-    kleine letter bevat.
-    Gebruik een loop om door password te lopen.
+    >>> check_letter("Abc")
+    True
+    >>> check_letter("abc")
+    False
     """
     for hoofdletter in password:
         if hoofdletter.isupper() == True:
