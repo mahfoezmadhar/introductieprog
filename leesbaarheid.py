@@ -48,6 +48,6 @@ if __name__ == '__main__':
     text = input()
     if calculate_grade > 16:
         print("Grade 16+")
-        
+    if c
     
     
