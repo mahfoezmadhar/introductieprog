@@ -7,7 +7,8 @@ def check_length(password: str) -> bool:
         count += 1
     if char >= 8:
         return True
-    
+    else:
+        return False
 
 def check_letter(password: str) -> bool:
     """
