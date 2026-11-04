@@ -52,6 +52,9 @@ def check_password(password: str) -> bool:
         and check_number(password) == True
         ):
             return True
+    else:
+        
+        
         
 
 if __name__ == '__main__':
