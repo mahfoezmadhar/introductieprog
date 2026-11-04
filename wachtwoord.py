@@ -17,7 +17,7 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     while i < len(password):
-        
+        i =
 
 def check_number(password: str) -> bool:
     """
