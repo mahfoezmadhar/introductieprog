@@ -12,6 +12,7 @@ def calculate_grade(text: str) -> int:
     ...     "Horatio, than are dreamt of in your philosophy.")
     
     """
+    
     for i in range(min(len(text), len(text))):
         
 
