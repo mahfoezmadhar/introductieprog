@@ -39,7 +39,7 @@ def check_number(password: str) -> bool:
         if letter.isdigit == True:
             return True
         else:
-            return False
+            i += 1
     
 
 def check_password(password: str) -> bool:
