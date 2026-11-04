@@ -13,7 +13,7 @@ def calculate_grade(text: str) -> int:
     
     """
     letters = 0
-    words = 0
+    words = 1
     sentences = 0
     for letter in text:
         if letter.isalpha() == True:
