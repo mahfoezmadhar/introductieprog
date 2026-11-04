@@ -22,7 +22,7 @@ def check_letter(password: str) -> bool:
         if letter.isupper == True:
             return True
         else: 
-            return False
+            i += 1
         if letter.islower == True:
             return True
         else:
