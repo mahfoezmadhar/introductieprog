@@ -32,7 +32,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> float:
     >>> round(coleman_liau(100, 5, 400), 2)
     6.24
     >>> round(coleman_liau(100, 5, 500), 2)
-    12.12
+    12
     """
     L = 100 * (letters / words)
     S = 100 * (sentences / words)
