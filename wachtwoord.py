@@ -18,6 +18,7 @@ def check_letter(password: str) -> bool:
     """
     while i < len(password):
         i = password[i]
+        if 
 
 def check_number(password: str) -> bool:
     """
