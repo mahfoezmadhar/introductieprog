@@ -33,6 +33,6 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     Berekent de index volgens de Coleman Liau-formule.
     """
-
+    
 if __name__ == '__main__':
     <Hoofdprogramma>
