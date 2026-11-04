@@ -4,7 +4,7 @@ def check_length(password: str) -> bool:
     """
     count = 0
     for char in password:
-        count 
+        count += 1
 
 def check_letter(password: str) -> bool:
     """
