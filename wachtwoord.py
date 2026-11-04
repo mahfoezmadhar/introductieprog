@@ -60,4 +60,4 @@ def check_password(password: str) -> bool:
 
 if __name__ == '__main__':
     <Hoofdprogramma mag maar één functie aanroepen>
-    input("")
+    input("Geef een wachtwoord: ")
