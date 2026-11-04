@@ -37,7 +37,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> float:
     L = 100 * (letters / words)
     S = 100 * (sentences / words)
     CLI = 0.0588 * L - 0.296 * S - 15.8
-    return rount(CLI
+    return rount(CLI)
     
 if __name__ == '__main__':
     text = input()
