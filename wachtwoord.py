@@ -24,8 +24,7 @@ def check_letter(password: str) -> bool:
     for kleineletter in password:
         if kleineletter.islower() == False:
             return True
-        else:
-            return False
+    
 
 def check_number(password: str) -> bool:
     """
