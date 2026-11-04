@@ -33,9 +33,6 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     Berekent de index volgens de Coleman Liau-formule.
     """
-    words = aantal_woorden
-    sentences = aantal_zinnen
-    letters = aantal_letters
     L = 100 * (letters / words)
     S = 100 * (sentences / words)
     CLI = 0.0588 * L - 0.296 * S - 15.8
