@@ -30,7 +30,7 @@ def check_letter(password: str) -> bool:
     for kleineletter in password:
         if kleineletter.islower() == False:
             return bevatkleineletter
-    return False
+    return 
     
 
 def check_number(password: str) -> bool:
