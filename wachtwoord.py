@@ -49,6 +49,7 @@ def check_password(password: str) -> bool:
     """
     if (
         check_length(password) == True and check_letter(password) == True
+        
 
 if __name__ == '__main__':
     <Hoofdprogramma mag maar één functie aanroepen>
