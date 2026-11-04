@@ -40,5 +40,6 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     S = 100 * (sentences / words)
     CLI = 0.0588 * L - 0.296 * S - 15.8
     return round(CLI + 0.5)
+    
 if __name__ == '__main__':
     <Hoofdprogramma>
