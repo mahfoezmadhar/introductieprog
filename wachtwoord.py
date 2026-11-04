@@ -17,7 +17,9 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for hoofdletter in password:
-        if hoofsletter.isupper == True
+        if hoofsletter.isupper == True:
+            return True
+        else
 
 def check_number(password: str) -> bool:
     """
