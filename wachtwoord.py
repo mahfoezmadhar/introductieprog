@@ -33,7 +33,7 @@ def check_number(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for digit in password:
-        if digit.isupper == True:
+        if digit.isdigit() == True:
             return True
         else:
             return False
