@@ -42,4 +42,4 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     return round(CLI + 0.5)
     
 if __name__ == '__main__':
-    <Hoofdprogramma>
+    text = input()
