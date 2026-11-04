@@ -21,7 +21,8 @@ def calculate_grade(text: str) -> int:
     for woorden in text:
         if woorden == " ":
             aantal_woorden += 1
-    for 
+    for zinnen in text:
+        
             
             
         
