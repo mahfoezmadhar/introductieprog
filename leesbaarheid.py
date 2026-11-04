@@ -12,7 +12,7 @@ def calculate_grade(text: str) -> int:
     ...     "Horatio, than are dreamt of in your philosophy.")
     
     """
-    words = 0
+    aantal_letters = 0
     aantal_woorden = 0
     aantal_zinnen = 0
     for letter in text:
