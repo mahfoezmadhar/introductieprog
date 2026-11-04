@@ -23,7 +23,7 @@ def check_letter(password: str) -> bool:
             return True
         else: 
             return False
-        elif letter.islower
+        elif letter.islower == 
         i += 1
 
 def check_number(password: str) -> bool:
