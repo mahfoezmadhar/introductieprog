@@ -19,7 +19,10 @@ def check_letter(password: str) -> bool:
     i = 0
     while i < len(password):
         letter = password[i]
-        if letter.is
+        if letter.isupper == true:
+            return True
+        else: 
+            return False
 
 def check_number(password: str) -> bool:
     """
