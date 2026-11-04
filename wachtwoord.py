@@ -16,7 +16,7 @@ def check_letter(password: str) -> bool:
     kleine letter bevat.
     Gebruik een loop om door password te lopen.
     """
-    while letter < len(password):
+    while i < len(password):
         i = password[i]
         if 
 
