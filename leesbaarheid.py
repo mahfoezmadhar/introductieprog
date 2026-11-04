@@ -48,7 +48,7 @@ if __name__ == '__main__':
     text = input()
     if calculate_grade(text) > 16:
         print("Grade 16+")
-    if calculate_grade(text) < 1:
+    elif calculate_grade(text) < 1:
         print("Below Grade 1")
     print(f"Grade {calculate_grade(text)}")
     
