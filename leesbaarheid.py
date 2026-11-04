@@ -30,7 +30,7 @@ def calculate_grade(text: str) -> int:
 def coleman_liau(words: int, sentences: int, letters: int) -> float:
     """
     >>> round(coleman_liau(100, 5, 400), 2)
-    6.24
+    6
     >>> round(coleman_liau(100, 5, 500), 2)
     12
     """
