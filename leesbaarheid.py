@@ -17,7 +17,7 @@ def calculate_grade(text: str) -> int:
     aantal_zinnen = 0
     i = 0
     for i in text:
-        if text[i].isap 
+        if text[i].isapha 
         
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
