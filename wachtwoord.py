@@ -53,7 +53,7 @@ def check_password(password: str) -> bool:
     ):
         return True
     else:
-        return F
+        return False
         
         
         
