@@ -19,7 +19,7 @@ def calculate_grade(text: str) -> int:
         if letter.isalpha() == True or letter == "'":
             letters += 1
     for woorden in text:
-        if woorden == " " or woorden == ",":
+        if woorden == " ":
             words += 1
     for zinnen in text:
         if zinnen == "." or zinnen == "?" or zinnen == "!":
