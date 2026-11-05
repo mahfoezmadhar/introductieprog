@@ -4,7 +4,7 @@ def yell(text: str) -> str:
     'hallo!! wereld??'
     >>> yell("hallo wereld")
     'hallo wereld'
-    >>> yell_verdubbel("")
+    >>> yell("")
     ''
     """
     leesteken = "!?"
