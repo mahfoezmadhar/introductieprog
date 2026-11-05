@@ -3,6 +3,7 @@ remove_vowels(text: str) -> str:
     
     """
     vowel = "aeiou"
+    result = ""
     for letter in text:
         if letter not in text:
             result += letter
