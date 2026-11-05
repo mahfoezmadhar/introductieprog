@@ -17,4 +17,4 @@ def yell(text: str) -> str:
     
 if __name__ == '__main__':
     text = input()
-    print(yell_verdubbel(text))
+    print(yell(text))
