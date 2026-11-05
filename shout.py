@@ -6,7 +6,8 @@ def shout(text: str) -> str:
     'IK STUDEER KI'
     
     """
-    return text.upper()
+    for letter in text:
+        ret
     
 if __name__ == '__main__':
     text = input()
