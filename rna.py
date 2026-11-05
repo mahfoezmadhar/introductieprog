@@ -17,7 +17,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     check aanroepen).
     """
     for reeks in dna.upper():
-        if reeks == "a":
+        if reeks == "A":
             return "u"
         elif reeks == "c":
             return "g"
