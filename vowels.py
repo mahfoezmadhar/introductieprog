@@ -10,6 +10,6 @@ def remove_vowels(text: str) -> str:
     return result
     
 if __name__ == '__main__':
-    text = input("input: ")
+    text = input()
     print(remove_vowels(text))
         
