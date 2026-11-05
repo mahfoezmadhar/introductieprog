@@ -10,5 +10,5 @@ def convert_snakecase(text: str):
     return result
     
 if __name__ == '__main__':
-    text = input("camelCase")
+    text = input("camelCase: ")
             
