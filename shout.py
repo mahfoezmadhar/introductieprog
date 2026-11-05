@@ -6,6 +6,7 @@ def shout(text: str) -> str:
     'IK STUDEER KI'
     
     """
+    
     for letter in text:
         result += letter.upper()
     return result
