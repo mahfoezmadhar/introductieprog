@@ -1,4 +1,4 @@
-remove_vowels(text: str) -> str:
+def remove_vowels(text: str) -> str:
     """
     
     """
