@@ -1,7 +1,8 @@
 def convert_snakecase(text: str):
     """
     >>> convert_snakecase("winkelWagen")
-    'winkel'
+    'winkel_wagen'
+    >>> convert_snakecase()
     
     """
     result = ""
