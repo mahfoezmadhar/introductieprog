@@ -18,7 +18,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     """
     for reeks in dna.lower():
         if reeks == "a":
-            return 
+            return ""
 
 if __name__ == '__main__':
     <Hoofdprogramma>
