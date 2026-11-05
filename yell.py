@@ -8,6 +8,6 @@ def yell_verdubbel(text: str) -> str:
         elif teken == "!":
             return teken + "!"
     
-    if __name__ == '__main__':
+if __name__ == '__main__':
         text = input("input: ")
         print(yell_verdubbel(text))
