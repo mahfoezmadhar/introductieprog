@@ -3,6 +3,7 @@ def shout(text: str) -> str:
     >>> shout("hallo hoe gaat het met je?")
     'HALLO HOE GAAT HET MET JE?'
     >>> shout("ik studeer ki")
+    ''
     
     
     """
