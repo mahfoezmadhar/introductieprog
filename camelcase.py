@@ -2,6 +2,7 @@ def convert_snakecase(text: str):
     """
     >>> convert_snakecase("winkelWagen")
     
+    
     """
     result = ""
     for letter in text:
