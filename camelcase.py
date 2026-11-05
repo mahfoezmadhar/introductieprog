@@ -1,4 +1,4 @@
-def convert_snakecase(text: str) -> str:
+def convert(text: str) -> str:
     """
     >>> convert_snakecase("winkelWagen")
     'winkel_wagen'
