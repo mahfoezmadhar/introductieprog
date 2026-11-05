@@ -17,7 +17,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     check aanroepen).
     """
     for reeks in dna.lower():
-        
+        if 
 
 if __name__ == '__main__':
     <Hoofdprogramma>
