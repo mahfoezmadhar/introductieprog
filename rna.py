@@ -21,7 +21,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
             return "U"
         elif reeks == "C":
             return "G"
-        elif reeks == "T"
+        elif reeks == "T":
+            return
 
 if __name__ == '__main__':
     <Hoofdprogramma>
