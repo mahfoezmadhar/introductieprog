@@ -5,7 +5,6 @@ def shout(text: str) -> str:
     >>> shout("ik studeer ki")
     'IK STUDEER KI'
     
-    
     """
     return text.upper()
     
