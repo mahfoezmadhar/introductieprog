@@ -21,7 +21,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
         if reeks == "A":
             result += "U"
         elif reeks == "C":
-            return "G"
+            result += "G"
         elif reeks == "T":
             return "A"
         else:
