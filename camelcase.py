@@ -1,6 +1,6 @@
 def convert_snakecase(text: str):
     """
-    >>> convert_snakecase(winkelW)
+    >>> convert_snakecase(winkelWagen)
     
     """
     result = ""
