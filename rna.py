@@ -6,7 +6,8 @@ def check_input(dna: str) -> bool:
     for letter in dna.lower():
         if letter not in "actg":
             return False
-        else
+        else:
+            return True
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
