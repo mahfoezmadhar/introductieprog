@@ -2,7 +2,7 @@ def convert(text: str) -> str:
     """
     >>> convert("winkelWagen")
     'winkel_wagen'
-    >>> convert_snakecase("intInput")
+    >>> convert("intInput")
     'int_input'
     
     """
