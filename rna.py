@@ -1,7 +1,13 @@
 def check_input(dna: str) -> bool:
     """
-    Controleert of de input een correcte DNA-string is.
-    Accepteert zowel hoofd- als kleine letters.
+    >>> check_input("ACTG")
+    True
+    >>> check_input("aCtG")
+    True
+    >>> check_input("XCTG")
+    False
+    >>> check_input("ACXG")
+    False
     """
     for letter in dna.upper():
         if letter not in "ACTG":
