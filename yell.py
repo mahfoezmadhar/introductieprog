@@ -1,5 +1,5 @@
 def yell_verdubbel(text: str) -> str:
-    """dtttte
+    """dtttteqq
     
     """
     for teken in text:
