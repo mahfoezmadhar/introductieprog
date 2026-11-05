@@ -10,4 +10,4 @@ def yell_verdubbel(text: str) -> str:
     
 if __name__ == '__main__':
     text = input("input: ")
-        print(yell_verdubbel(text))
+    print(yell_verdubbel(text))
