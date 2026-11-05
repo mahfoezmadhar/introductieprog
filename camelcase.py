@@ -8,4 +8,6 @@ def convert_snakecase(text: str):
         if letter.isupper() == True:
             result += "_" + letter
     return result
+    
+if __name__ == '__main__':
             
