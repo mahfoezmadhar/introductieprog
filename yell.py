@@ -9,5 +9,5 @@ def yell_verdubbel(text: str) -> str:
             return teken + "!"
     
     if __name__ == '__main__':
-        text = input("")
+        text = input()
         print(yell_verdubbel(text))
