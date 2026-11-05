@@ -2,4 +2,4 @@ def shout(text: str) -> str:
     """
     
     """
-    return 
+    return text
