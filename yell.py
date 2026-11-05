@@ -6,7 +6,7 @@ def yell_verdubbel(text: str) -> str:
     result = ""
     for teken in text:
         if teken not in leesteken:
-            result += teken + teken
+            result += teken
     return result
     
 if __name__ == '__main__':
