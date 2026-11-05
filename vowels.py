@@ -1,7 +1,7 @@
 def remove_vowels(text: str) -> str:
     """
     >>> remove_vowels("hallo hoe gaat het met jou?")
-    'hll h gt ht mt j'
+    'hll h gt ht mt j>'
     >>> remove_vowels("mijn naam is bo")
     'mjn nm s b'
     
