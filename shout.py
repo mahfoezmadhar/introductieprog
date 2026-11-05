@@ -2,4 +2,6 @@ def shout(text: str) -> str:
     """
     
     """
-    return text.upper
+    return text.upper()
+    
+if __name__ == '__main__':
