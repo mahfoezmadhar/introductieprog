@@ -2,7 +2,7 @@ def yell(text: str) -> str:
     """
     >>> yell("hallo! wereld?")
     'hallo!! wereld??'
-    >>> yell_verdubbel("hallo wereld")
+    >>> yell("hallo wereld")
     'hallo wereld'
     >>> yell_verdubbel("")
     ''
