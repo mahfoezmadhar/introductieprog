@@ -12,4 +12,4 @@ def remove_vowels(text: str) -> str:
     if __name__ == '__main__':
         text = input()
         print(remove_vowels(text))
-        
+        jus
