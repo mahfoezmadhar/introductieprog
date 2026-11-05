@@ -5,7 +5,7 @@ def check_input(dna: str) -> bool:
     """
     dnawaarde = "actg"
     for letter in dna.lower():
-        if letter
+        if letter in dnawaarde
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
