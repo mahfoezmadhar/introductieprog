@@ -16,7 +16,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
     Ga ervan uit dat een valide string wordt gegeven (dus geen
     check aanroepen).
     """
-    for reeks in 
+    for reeks in dna:
+        
 
 if __name__ == '__main__':
     <Hoofdprogramma>
