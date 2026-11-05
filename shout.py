@@ -1,5 +1,6 @@
 def shout(text: str) -> str:
     """
+    shout()
     
     """
     return text.upper()
