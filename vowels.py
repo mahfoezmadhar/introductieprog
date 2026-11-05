@@ -8,4 +8,6 @@ remove_vowels(text: str) -> str:
         if letter not in text:
             result += letter
     return result
+    
+    
         
