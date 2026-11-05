@@ -5,7 +5,7 @@ def remove_vowels(text: str) -> str:
     vowel = "aeiou"
     result = ""
     for letter in text:
-        if letter not in text:
+        if letter not in vowel:
             result += letter
     return result
     
