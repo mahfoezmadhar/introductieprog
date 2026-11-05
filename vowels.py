@@ -6,5 +6,5 @@ remove_vowels(text: str) -> str:
     for letter in text:
         if letter not in text:
             result += letter
-    
+    return result
         
