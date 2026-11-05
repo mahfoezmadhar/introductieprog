@@ -4,6 +4,7 @@ def convert_snakecase(text: str):
     'winkel_wagen'
     >>> convert_snakecase("intInput")
     
+    
     """
     result = ""
     for letter in text:
