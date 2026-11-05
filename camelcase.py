@@ -1,6 +1,6 @@
 def convert(text: str) -> str:
     """
-    >>> convert_snakecase("winkelWagen")
+    >>> convert("winkelWagen")
     'winkel_wagen'
     >>> convert_snakecase("intInput")
     'int_input'
