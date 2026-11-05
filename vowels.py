@@ -1,6 +1,6 @@
 def remove_vowels(text: str) -> str:
     """
-    >>>
+    >>> remove_vowels()
     
     """
     vowel = "aeiou"
