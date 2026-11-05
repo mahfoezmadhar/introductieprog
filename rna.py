@@ -31,3 +31,5 @@ if __name__ == '__main__':
     dna = input("DNA: ")
     if check_input(dna) == True:
         print(f"RNA: {transcribe_dna_to_rna(dna)}")
+    else:
+        
