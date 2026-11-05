@@ -9,7 +9,7 @@ def remove_vowels(text: str) -> str:
             result += letter
     return result
     
-    if __name__ == '__main__':
-        text = input("input: ")
-        print(remove_vowels(text))
+if __name__ == '__main__':
+    text = input("input: ")
+    print(remove_vowels(text))
         
