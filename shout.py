@@ -1,6 +1,6 @@
 def shout(text: str) -> str:
     """
-    >>> shout(hallo hoe gaat het met je?)
+    >>> shout("hallo hoe gaat het met je?)
     
     
     """
