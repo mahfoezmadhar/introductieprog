@@ -5,7 +5,7 @@ def yell_verdubbel(text: str) -> str:
     leesteken = "!, ?"
     result = ""
     for teken in text:
-        result = 
+        result += teken
         if teken in leesteken:
             result += teken
     return result
