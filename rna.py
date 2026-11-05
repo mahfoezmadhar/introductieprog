@@ -6,7 +6,7 @@ def check_input(dna: str) -> bool:
     for letter in dna.upper():
         if letter not in "ACTG":
             return False
-            return True
+    return True
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
