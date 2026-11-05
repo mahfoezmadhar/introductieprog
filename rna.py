@@ -16,10 +16,10 @@ def check_input(dna: str) -> bool:
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
-    Schrijft een string met DNA-elementen in hoofd- en/of kleine
-    letters om naar een string met RNA-elementen (als hoofdletters).
-    Ga ervan uit dat een valide string wordt gegeven (dus geen
-    check aanroepen).
+    >>> transcribe_dna_to_rna("ACTG")
+    'UGAC'
+    >>> transcribe_dna_to_rna("aCgT")
+    'UGCA'
     """
     result = ""
     for reeks in dna.upper():
