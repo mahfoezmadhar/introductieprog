@@ -1,4 +1,4 @@
-def yell_verdubbel(text: str) -> str:
+def yell(text: str) -> str:
     """
     >>> yell_verdubbel("hallo! wereld?")
     'hallo!! wereld??'
