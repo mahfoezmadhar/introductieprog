@@ -2,6 +2,7 @@ def shout(text: str) -> str:
     """
     >>> shout(hallo hoe gaat het met je?)
     
+    
     """
     return text.upper()
     
