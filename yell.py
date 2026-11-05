@@ -1,1 +1,1 @@
-def yell_(text: str) -> str:
+def yell_verdubbel(text: str) -> str:
