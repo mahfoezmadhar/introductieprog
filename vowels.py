@@ -9,5 +9,6 @@ remove_vowels(text: str) -> str:
             result += letter
     return result
     
-    
+    if __name__ == '__main__':
+        text = 
         
