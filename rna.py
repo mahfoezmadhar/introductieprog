@@ -19,7 +19,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     result = ""
     for reeks in dna.upper():
         if reeks == "A":
-            return "U"
+            result += "U"
         elif reeks == "C":
             return "G"
         elif reeks == "T":
