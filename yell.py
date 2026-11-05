@@ -1,6 +1,6 @@
 def yell_verdubbel(text: str) -> str:
     """
-        >>> yell_verdubbel("hallo! wereld?")
+    >>> yell_verdubbel("hallo! wereld?")
     'hallo!! wereld??'
     >>> yell_verdubbel("hallo wereld")
     'hallo wereld'
