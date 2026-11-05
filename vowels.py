@@ -1,1 +1,1 @@
-remove_vowels()
+remove_vowels(text: str)
