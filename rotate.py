@@ -15,7 +15,6 @@ def rotate(lst: list[object]) -> None:
             lst[cijfer] = lst[0]
         if cijfer < len(lst) - 1:
             lst[cijfer] = lst[cijfer + 1]
-    lst[cijfer] = 1
     
     
     
