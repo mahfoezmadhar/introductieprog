@@ -16,12 +16,6 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> none:
     """
     nieuwe_lijst = []
     for letter1 in lst1:
-        for letter2 in lst2:
-            nieuwe_lijst.append(letter1 , letter2)
-            if keep == True and len(lst1) > len(lst2):
-                nieuwe_lijst.append(lst1)
-            elif keep == True and len(lst2) > len(lst1):
-                nieuwe_lijst.append(lst2)
-        return nieuwe_lijst
+
         
     
