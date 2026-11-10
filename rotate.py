@@ -5,5 +5,6 @@ def rotate(lst: list[object]) -> None:
     >>> rotate(n1)
     >>> n1
     [2, 3, 1]
+    """"
     
     
