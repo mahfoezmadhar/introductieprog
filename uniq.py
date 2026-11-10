@@ -18,4 +18,4 @@ def uniq(lst: list[object]) -> none:
     for letter in lst:
         if letter not in nieuwe_lijst:
             nieuwe_lijst.append(letter)
-    
+    return nieuwe_lijst
