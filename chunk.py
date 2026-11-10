@@ -8,7 +8,8 @@ def chunk(lst: list[int], n: int) -> none:
     [[8], [9]]    
     
     """
-    nieuwe_lijst = 
+    nieuwe_lijst = []
+    
     
     
     
