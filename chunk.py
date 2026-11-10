@@ -1,4 +1,4 @@
-def chunk(lst: list[int]) -> none:
+def chunk(lst: list[int], n) -> none:
     """
     >>> chunk([1, 2, 3, 4, 5, 6], 2)
     [[1, 2], [3, 4], [5, 6]]
