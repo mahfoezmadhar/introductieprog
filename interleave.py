@@ -21,6 +21,6 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> none:
             if keep == True and len(list1) > len(list2):
                 nieuwe_lijst.append(list1)
             else:
-                nieuwe_lijst.a
+                nieuwe_lijst.
         
     
