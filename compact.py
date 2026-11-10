@@ -2,6 +2,6 @@ def compact(lst: list[object]) -> none:
     """
     
     """
-    x = 
+    x = []
     for x in lst:
         if 
