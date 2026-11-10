@@ -7,3 +7,4 @@ def compact(lst: list[object]) -> none:
         if not x:
             
             
+            
