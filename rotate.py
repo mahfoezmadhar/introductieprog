@@ -6,7 +6,8 @@ def rotate(lst: list[object]) -> None:
     [2, 3, 1]
     
     """
-    for cijfer in range(len(lst))
+    for cijfer in range(len(lst)):
+        
     
     
     
