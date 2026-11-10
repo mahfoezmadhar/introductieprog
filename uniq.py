@@ -5,5 +5,5 @@ def uniq(lst: list[object]) -> none:
     """
     teller = 0
     nieuwe_lijst = []
-    for letter in lst:
+    for letter in range(:
         if letter
