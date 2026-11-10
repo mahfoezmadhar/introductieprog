@@ -7,4 +7,4 @@ def uniq(lst: list[object]) -> none:
     for letter in range(len(lst) - 1):
         if lst[letter] == lst[letter + 1]:
             nieuwe_lijst.append(letter)
-            
+            nieuwe_lijst.remove
