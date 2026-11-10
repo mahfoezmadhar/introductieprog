@@ -18,7 +18,15 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> none:
     for letters in range(min(len(lst1), len(lst2))):
         nieuwe_lijst.append(lst1[letters])
         nieuwe_lijst.append(lst2[letters])
+    if voeg_rest_toe and len(lijst_2) > len(lijst_1):
+        # Pak alle overige elementen vanaf de 'kortste_lengte' tot het einde
+        overige_elementen = lijst_2[kortste_lengte:]
         
+        # Voeg de restjes één voor één toe
+        for element in overige_elementen:
+            nieuwe_lijst.append(element)
+            
+    return nieuwe_lijst
 
         
     
