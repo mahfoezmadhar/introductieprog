@@ -26,6 +26,7 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> none:
             nieuwe_lijst.append([j])
         for j in range(i, len(lst2)):
             nieuwe_lijst.append([j])
+    return nieuwe_lijst
 
         
     
