@@ -1,6 +1,6 @@
 def uniq(lst: list[object]) -> none:
     """
-        >>> origineel = [3, 1, 3, 2, 1]
+    >>> origineel = [3, 1, 3, 2, 1]
     >>> uniq(origineel)
     [3, 1, 2]
     >>> origineel
