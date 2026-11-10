@@ -2,4 +2,5 @@ def compact(lst: list[object]) -> none:
     """
     
     """
-    for x in lst
+    for x in lst:
+        
