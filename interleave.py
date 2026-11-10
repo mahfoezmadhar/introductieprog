@@ -22,7 +22,6 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> none:
     if voeg_rest_toe and len(lijst_2) > len(lijst_1):
         overige_elementen = lijst_2[kortste_lengte:]
         
-        # Voeg de restjes één voor één toe
         for element in overige_elementen:
             nieuwe_lijst.append(element)
             
