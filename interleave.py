@@ -15,7 +15,7 @@ def interleave(lst1: list[object], lst2: list[object], keep: bool) -> none:
     
     """
     nieuwe_lijst = []
-    for letters in range(min(len))
+    for letters in range(min(len(lst1)))
 
         
     
