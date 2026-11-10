@@ -7,7 +7,7 @@ def rotate(lst: list[object]) -> None:
     
     """
     for cijfer in range(len(lst)):
-        if cijfer >= len(lst):
+        if cijfer <= len(lst):
             lst[cijfer] = lst[cijfer + 1]
         else:
             lst[cijfer] = lst[0]
