@@ -1,1 +1,7 @@
-def chunk(lst: list[int]) -> none
+def chunk(lst: list[int]) -> none:
+    """
+    
+    
+    """
+    
+    
