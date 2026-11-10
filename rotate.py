@@ -10,7 +10,7 @@ def rotate(lst: list[object]) -> None:
     [3, 1, 2]
     
     """
-    eerste = 
+    eerste = lst
     for cijfer in range(len(lst)):
         lst[cijfer] = lst[0]
         if cijfer < len(lst) - 1:
