@@ -11,7 +11,8 @@ def chunk(lst: list[int], n: int) -> none:
     nieuwe_lijst = []
     for letter in lst:
         groepje = lst[i:i + n]
-        nieuwe_lijst.append
+        nieuwe_lijst.append(groepje)
+    return nieuwe_lijst
     
     
     
