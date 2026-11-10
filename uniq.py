@@ -16,4 +16,5 @@ def uniq(lst: list[object]) -> none:
     """
     nieuwe_lijst = []
     for letter in range(len(lst)):
-        is letter not in 
+        is letter not in nieuwe_lijst:
+            
