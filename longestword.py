@@ -8,7 +8,7 @@ def string_to_list(s: str) -> none:
     """
     nieuwe_lijst = []
     woord_lijst = ""
-    for i in s:
+    for i in range(len(s:
         if i not in " ":
             woord_lijst += i
         elif i in " ":
