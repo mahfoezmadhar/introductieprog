@@ -29,6 +29,7 @@ def longest_word_from_list(nieuwe_lijst: list[object]) -> str:
         if len(i) > len(langste_woord):
             langste_woord = i
             
+            
 
 
 ###def print_banner(s: list[object]) -> str:
