@@ -7,9 +7,7 @@ def string_to_list(s: str) -> none:
     
     """
     nieuwe_lijst = []
-    for i in range(len(s)):
-        woord = s[i]
-        for j in range(len(woord)):
+    for i in s
         
 
 
