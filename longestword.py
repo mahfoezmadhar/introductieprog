@@ -13,6 +13,7 @@ def string_to_list(s: str) -> none:
             woord_lijst += s[i]
         else:
             nieuwe_lijst.append(woord_lijst)
+            woord_lijst = ""
 
     return nieuwe_lijst
             
