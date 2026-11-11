@@ -7,7 +7,7 @@ def string_to_list(s: str) -> none:
     
     """
     nieuwe_lijst = []
-    while 
+    while i 
 
 
 
