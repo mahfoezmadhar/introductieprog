@@ -28,7 +28,7 @@ def longest_word_from_list(nieuwe_lijst: list[object]) -> str:
 >>> longest_word_from_list(["la", "Margherita", "Vita"])
 'Margherita'
 >>> longest_word_from_list(["kat"])
-'kat'  
+'kat'
     
     """
     langste_woord = ""
