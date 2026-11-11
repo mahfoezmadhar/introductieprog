@@ -11,7 +11,8 @@ def string_to_list(s: str) -> none:
     for i in s:
         if i not in " ":
             woord_lijst += i
-        elif i in 
+        elif i in " ":
+            
             
         
 
