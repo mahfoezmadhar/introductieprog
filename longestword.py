@@ -10,7 +10,7 @@ def string_to_list(s: str) -> none:
     woord_lijst = ""
     for i in range(len(s)):
         if s[i] not in " ":
-            woord_lijst += s[i
+            woord_lijst += s[i]
         elif i in " ":
             nieuwe_lijst.append(woord_lijst)
         elif 
