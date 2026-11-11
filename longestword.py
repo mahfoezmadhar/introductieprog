@@ -11,6 +11,7 @@ def string_to_list(s: str) -> none:
     for i in s:
         if i not in " ":
             
+            
         
 
 
