@@ -27,7 +27,7 @@ def longest_word_from_list(nieuwe_lijst: list[object]) -> str:
     langste_woord = ""
     for i in nieuwe_lijst:
         if len(i) > len(langste_woord):
-            
+            langste_woord = i
             
 
 
