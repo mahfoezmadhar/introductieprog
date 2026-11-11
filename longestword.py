@@ -25,7 +25,7 @@ def string_to_list(s: str) -> none:
 
 def longest_word_from_list(nieuwe_lijst: list[object]) -> str:
     for woord in range(len(nieuwe_lijst)):
-        if len(woord)
+        if len(woord) > 
             
 
 
