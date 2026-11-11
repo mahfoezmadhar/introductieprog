@@ -7,7 +7,8 @@ def string_to_list(s: str) -> none:
     
     """
     nieuwe_lijst = []
-    for i in s
+    for i in s:
+        
         
 
 
