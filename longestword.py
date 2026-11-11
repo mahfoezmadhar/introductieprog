@@ -10,7 +10,7 @@ def string_to_list(s: str) -> none:
     woord_lijst = ""
     for i in s:
         if i not in " ":
-            woord_lijst
+            woord_lijst += i
             
         
 
