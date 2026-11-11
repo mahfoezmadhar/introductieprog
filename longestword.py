@@ -1,4 +1,4 @@
-
+def string_to_list(s: str) -> none:
 
 
 
