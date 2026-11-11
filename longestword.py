@@ -9,7 +9,7 @@ def string_to_list(s: str) -> none:
     nieuwe_lijst = []
     woord_lijst = ""
     for i in s:
-        if i i
+        if i in " ":
         
 
 
