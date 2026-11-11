@@ -13,7 +13,7 @@ def string_to_list(s: str) -> none:
             woord_lijst += s[i]
         elif i in " ":
             nieuwe_lijst.append(woord_lijst)
-        elif 
+        elif i >= len(s)
             
         
 
