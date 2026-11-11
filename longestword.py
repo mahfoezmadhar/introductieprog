@@ -12,7 +12,7 @@ def string_to_list(s: str) -> none:
         if i not in " ":
             woord_lijst += i
         elif i in " ":
-            
+            nieuwe_lijst.append()
             
         
 
