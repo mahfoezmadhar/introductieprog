@@ -1,5 +1,5 @@
 def longest_word_from_list(lst: list[object]) -> str:
-    
+    for woord in lst
     
 def string_to_list(s: str) -> none:
     
