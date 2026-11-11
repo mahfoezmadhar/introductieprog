@@ -7,7 +7,7 @@ def string_to_list(s: str) -> none:
     for woord in s:
         if woord not in " ":
             nieuwe_lijst.append(s)
-    
+    return nieuwe_lijst
 
 
 
