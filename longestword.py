@@ -15,7 +15,7 @@ def string_to_list(s: str) -> none:
             nieuwe_lijst.append(woord_lijst)
             woord_lijst = ""
     if woord_lijst:
-        nieuwe_lijst.append
+        nieuwe_lijst.append()
 
     return nieuwe_lijst
             
