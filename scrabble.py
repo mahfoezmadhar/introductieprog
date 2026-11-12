@@ -12,6 +12,7 @@ def compute_score(word: str) -> int:
     """
     for tekenwaarde in word:
         tekenwaarde = compute_letter_score(letter)
+        
     
     
     
