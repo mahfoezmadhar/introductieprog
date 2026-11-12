@@ -10,8 +10,8 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     [2, 2, 2, 2]
     >>> merge_lists([], [1, 2])
     [1, 2]
->>> merge_lists([1, 2], [])
-[1, 2]
+    >>> merge_lists([1, 2], [])
+    [1, 2]
     
     """
     nieuwe_lijst = []
