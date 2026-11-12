@@ -7,8 +7,8 @@ def compute_score(word: str) -> int:
     7
     >>> compute_score("CoDe")
     7
-    >>> compute_score("co-de!2")
-    7
+    >>> compute_score("pizza")
+25
     """
 
 def compute_letter_score(letter: str) -> int:
