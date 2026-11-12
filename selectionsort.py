@@ -22,6 +22,7 @@ def selection_sort(l: list[int]) -> list[int]:
     if minimale_waarde:
         l.insert(pos, minimale_waarde)
         pos += 1
+        
     l.insert(pos, max(l))
     return l
     
