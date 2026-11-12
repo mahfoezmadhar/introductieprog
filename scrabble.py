@@ -10,7 +10,6 @@ def compute_score(word: str) -> int:
     >>> compute_score("pizza")
     25
     """
-    letter = lettr.lower()
     totale_waarde = 0
     for letter in word:
         letter = compute_letter_score(letter)
