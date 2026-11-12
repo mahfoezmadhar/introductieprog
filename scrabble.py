@@ -11,7 +11,7 @@ def compute_score(word: str) -> int:
     25
     """
     totale_waarde = 0
-    for letter in word:
+    for teken in word:
         letter = compute_letter_score(letter)
         totale_waarde += letter
     return totale_waarde
