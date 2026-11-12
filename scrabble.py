@@ -45,7 +45,7 @@ def compute_letter_score(letter: str) -> int:
     """
     letter = letter
     alphabet = "abcdefghijklmnopqrstuvwxyz"
-    for i in range(1, len(alphabet) + 1):
+    for i in range(len(alphabet)):
         if letter == alphabet[i]:
             letter = i 
     return letter
