@@ -12,7 +12,7 @@ def special_sort(l: list[int]) -> list[int]:
 
     """
     for pos in range(len(l) - 1):
-        kleinste_index = pos
+
 
         for index in range(pos + 1, pos + 2):
             if l[index] < l[pos]:
