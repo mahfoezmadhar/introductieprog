@@ -60,6 +60,6 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
         print(woorden)
     print("#" * aantal_tekens)
     
-if __name__ == __
+if __name__ == __''
         
     
