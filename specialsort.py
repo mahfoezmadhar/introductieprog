@@ -11,4 +11,4 @@ def special_sort(l: list[int]) -> list[int]:
     [7]
 
     """
-    for 
+    for pos in range()
