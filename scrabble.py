@@ -18,7 +18,7 @@ def compute_letter_score(letter: str) -> int:
     >>> compute_letter_score("b")
     3
     >>> compute_letter_score("z")
-10
+    10
     >>> compute_letter_score("Z")
 10
     
