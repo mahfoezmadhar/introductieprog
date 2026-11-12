@@ -19,7 +19,7 @@ def merge_lists(lst1: lst[int], lst2: lst[int]) -> lst:
             nieuwe_lijst.append(lst2[j])
             i += 1 
             j += 1
-    return 
+    return nieuwe_lijst
             
             
             
