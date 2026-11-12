@@ -10,7 +10,8 @@ def compute_score(word: str) -> int:
     >>> compute_score("pizza")
     25
     """
-    for letter in 
+    for letter in word:
+        
     
     
     
