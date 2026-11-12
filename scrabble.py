@@ -3,12 +3,12 @@ POINTS = [1, 3, 3,  2, 1, 4, 2, 4, 1, 8, 5, 1,  3,
 
 def compute_score(word: str) -> int:
     """
->>> compute_score("code")
-7
->>> compute_score("CoDe")
-7
->>> compute_score("co-de!2")
-7
+    >>> compute_score("code")
+    7
+    >>> compute_score("CoDe")
+    7
+    >>> compute_score("co-de!2")
+    7
     """
 
 def compute_letter_score(letter: str) -> int:
