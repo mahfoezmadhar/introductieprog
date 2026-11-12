@@ -10,6 +10,7 @@ def compute_letter_score(letter: str) -> int:
     """
     
     """
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
     for i in
 
 if __name__ == '__main__':
