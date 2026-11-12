@@ -10,7 +10,7 @@ def compute_score(word: str) -> int:
     >>> compute_score("pizza")
     25
     """
-    for letter in word:
+    for teken in word:
         letter
     
     
