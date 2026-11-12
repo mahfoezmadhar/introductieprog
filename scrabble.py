@@ -11,7 +11,7 @@ def compute_score(word: str) -> int:
     25
     """
     for letter in word:
-        
+        letter
     
     
     
