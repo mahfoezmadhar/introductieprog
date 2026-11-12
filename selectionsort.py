@@ -6,6 +6,6 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     minimale_waarde = max(i)
     for index in range(len(l)):
-        if i
+        if i < minimale_waarde
             
         
