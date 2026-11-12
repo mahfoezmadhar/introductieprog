@@ -39,7 +39,7 @@ def longest_word_from_list(nieuwe_lijst: list[str]) -> str:
             
 
 
-def print_banner(nieuwe_lijst: list[obje]) -> None:
+def print_banner(nieuwe_lijst: list[str]) -> None:
     """
     >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
     ##########
