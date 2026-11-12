@@ -42,4 +42,4 @@ if __name__ == '__main__':
     speler2 = compute_score(word)
     if speler1 > speler2:
         print("Speler 1 wint!")
-    elif speler2 > speler1
+    elif speler2 > speler1:
