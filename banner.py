@@ -59,7 +59,6 @@ def print_banner(nieuwe_lijst: list[object]) -> None:
     for woorden in nieuwe_lijst:
         print(woorden)
     print("#" * aantal_tekens)
-    return None
     
     
     
