@@ -43,3 +43,4 @@ if __name__ == '__main__':
     if speler1 > speler2:
         print("Speler 1 wint!")
     elif speler2 > speler1:
+        print
