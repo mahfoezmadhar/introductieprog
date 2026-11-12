@@ -14,7 +14,7 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     minimale_waarde = max(l)
     pos = 0
-    gesorteerd = ""
+    gesorteerd = []
     for index in range(len(l)):
         if l[index] < minimale_waarde and l[index] < l[index + 1] and l[index] not in gesorteerd:
             minimale_waarde = l[index]
