@@ -53,4 +53,4 @@ def compute_letter_score(letter: str) -> int:
     return letter
 
 if __name__ == '__main__':
-    
+    word = input("")
