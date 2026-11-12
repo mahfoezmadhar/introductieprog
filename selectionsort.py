@@ -12,6 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
     [7]
     
     """
+    """"
     for pos in range(len(l) - 1):
         kleinste_index = pos
 
@@ -21,6 +22,7 @@ def selection_sort(l: list[int]) -> list[int]:
 
         l[pos], l[kleinste_index] = l[kleinste_index], l[pos]
     return l
+    """"""
     
             
         
