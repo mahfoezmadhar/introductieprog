@@ -12,7 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
             minimale_waarde = index
             i += 1
     if minimale_waarde:
-        l.insert()
+        l.insert(pos, )
     
             
         
