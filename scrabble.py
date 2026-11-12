@@ -13,8 +13,7 @@ def compute_score(word: str) -> int:
     totale_waarde = 0
     for letter in word:
         letter = compute_letter_score(letter)
-        letterwaarde = POINTS[letter]
-        totale_waarde += letterwaarde
+        totale_waarde += letter
     return totale_waarde
         
 def compute_letter_score(letter: str) -> int:
