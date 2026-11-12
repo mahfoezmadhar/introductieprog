@@ -1,7 +1,7 @@
 def merge_lists(lst1: lst[int], lst2: lst[int]) -> lst:
     """
     >>> merge_lists([1, 2, 5], [4, 5, 6])
-[1, 2, 4, 5, 5, 6]
+    [1, 2, 4, 5, 5, 6]
     
     """
     nieuwe_lijst = []
