@@ -17,7 +17,7 @@ def selection_sort(l: list[int]) -> list[int]:
     index = 0
     gesorteerd = []
     while index < len(l):
-        if l[index] < minimale_waarde and l[index] < l[index + 1] and l[index] not in gesorteerd:
+        if l[index] <= minimale_waarde and l[index] < l[index + 1] and l[index] not in gesorteerd:
             minimale_waarde = l[index]
             index += 1
     if minimale_waarde:
