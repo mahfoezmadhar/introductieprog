@@ -4,5 +4,6 @@ def selection_sort(l: list[int]) -> list[int]:
     [1, 2, 3, 4, 5, 6]
     
     """
+    minimale
     for index in range(len(l)):
         
