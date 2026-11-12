@@ -12,7 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
     [7]
     
     """
-    minimale_waarde = max(i)
+    minimale_waarde = max(l)
     pos = 0
     gesorteerd = ""
     for index in range(len(l)):
