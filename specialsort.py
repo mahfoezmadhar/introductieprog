@@ -17,4 +17,4 @@ def special_sort(l: list[int]) -> list[int]:
             if l[index] < l[pos]:
 
                 l[pos], l[index] = l[index], l[pos]
-    return lpython3 
+    return l
