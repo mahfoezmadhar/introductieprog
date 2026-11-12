@@ -14,7 +14,7 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     
     
-    for pos in range(len(l))
+    for pos in range(len(l) - 1)
     
     
     
