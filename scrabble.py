@@ -41,4 +41,4 @@ if __name__ == '__main__':
     word = input("speler 2: ")
     speler2 = compute_score(word)
     if speler1 > speler2:
-        
+        print("")
