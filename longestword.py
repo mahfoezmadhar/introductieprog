@@ -41,3 +41,4 @@ def longest_word_from_list(nieuwe_lijst: list[object]) -> str:
 
 def print_banner(nieuwe_lijst: list[object]) -> str:
     
+    
