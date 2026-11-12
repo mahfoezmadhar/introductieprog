@@ -45,6 +45,6 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
     
     """
     for teken in range(langste_woord):
-        print("")
+        print("#")
         
     
