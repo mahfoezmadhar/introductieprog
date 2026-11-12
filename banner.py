@@ -44,6 +44,6 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
     
     
     """
-    for 
+    for langste in range()
         
     
