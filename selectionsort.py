@@ -12,5 +12,6 @@ def selection_sort(l: list[int]) -> list[int]:
             minimale_waarde = index
             i += 1
     
+    
             
         
