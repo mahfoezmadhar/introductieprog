@@ -32,7 +32,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     for index in range(i, len(lst1)):
         nieuwe_lijst.append(lst1[i])
     for index in range(j, len(lst2)):
-        nieuwe_lijst.append(lst)
+        nieuwe_lijst.append(lst2[j])
     return nieuwe_lijst
             
             
