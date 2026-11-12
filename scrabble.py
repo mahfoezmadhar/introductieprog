@@ -39,3 +39,4 @@ if __name__ == '__main__':
     word = input("speler 1: ")
     print(compute_score(word))
     word = input("speler 2: ")
+    print(compute_score(word))
