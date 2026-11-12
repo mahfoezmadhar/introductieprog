@@ -24,49 +24,5 @@ def selection_sort(l: list[int]) -> list[int]:
         l[pos], l[kleinste_index] = l[kleinste_index], l[pos]
     return l
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
             
         
