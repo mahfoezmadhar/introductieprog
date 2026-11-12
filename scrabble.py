@@ -37,6 +37,6 @@ def compute_letter_score(letter: str) -> int:
 
 if __name__ == '__main__':
     word = input("speler 1: ")
-    speler1 = (compute_score(word)
+    speler1 = compute_score(word)
     word = input("speler 2: ")
     print(compute_score(word))
