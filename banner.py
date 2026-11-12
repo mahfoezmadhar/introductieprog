@@ -51,7 +51,7 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
     >>> print_banner(["Hoi"])
     ###
     Hoi
-    ###    
+    ### 
     
     """
     for teken in range(langste_woord):
