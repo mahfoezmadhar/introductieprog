@@ -18,5 +18,5 @@ def special_sort(l: list[int]) -> list[int]:
             if l[index] < l[kleinste_index]:
                 kleinste_index = index
 
-        l[pos], l[kleinste_index] = l[kleinste_index], l[pos]
+            l[pos], l[kleinste_index] = l[kleinste_index], l[pos]
     return l
