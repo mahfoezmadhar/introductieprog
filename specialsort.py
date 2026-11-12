@@ -1,8 +1,5 @@
 def special_sort(l: list[int]) -> list[int]:    
     
-    
-    
-    
     """
     >>> special_sort([5, 4, 3, 2, 1])
     [1, 2, 3, 4, 5]
