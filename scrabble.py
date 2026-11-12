@@ -14,12 +14,12 @@ def compute_score(word: str) -> int:
 def compute_letter_score(letter: str) -> int:
     """
     >>> compute_letter_score("a")
-1
->>> compute_letter_score("b")
-3
->>> compute_letter_score("z")
+    1
+    >>> compute_letter_score("b")
+    3
+    >>> compute_letter_score("z")
 10
->>> compute_letter_score("Z")
+    >>> compute_letter_score("Z")
 10
     
     """
