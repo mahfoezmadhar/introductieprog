@@ -12,7 +12,8 @@ def compute_letter_score(letter: str) -> int:
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for i in range(1, len(alphabet) + 1):
-        if letter == alphabet[i]
+        if letter == alphabet[i]:
+            
 
 if __name__ == '__main__':
     <Hoofdprogramma>
