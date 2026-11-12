@@ -1,0 +1,39 @@
+def convert_temperature(old_type: str, old_temp: int) -> int:
+    """
+    >>> convert_temperature("C", 10)
+    50
+    >>> convert_temperature("F", 32)
+    0
+    >>> convert_temperature("F", 41)
+    5
+    >>> convert_temperature("C", 20)
+    68
+    """
+    if old_type.upper() == "C":
+        return int((18 * old_temp + 320) / 10)
+    else:
+        return int((10 * old_temp - 320) / 18)
+    
+
+def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
+    """
+    Print de conversie-tabel.
+    """
+    if old_type.upper() == "C":
+        print(f"{'C':>3} | {'F':>3}")
+    else:
+        print(f"{'F':>3} | {'C':>3}")
+
+    if end_temp > begin_temp:
+        for temperatuur in range(begin_temp, end_temp + 1, step_size):
+            omgerekend = convert_temperature(old_type, temperatuur)
+            print(f"{temperatuur:>3} | {omgerekend:>3}")
+
+if __name__ == '__main__':
+    old_type = input("Welke eenheid van temperatuur (C of F)?: ") 
+    begin_temp = int(input("Wat is de begintemperatuur?: "))
+    end_temp = int(input("Wat is de eindtemperatuur?: "))
+    step_size = int(input("Wat is de stapgrootte?: "))
+    while step_size <= 0:
+        step_size = int(input("Wat is de stapgrootte?: "))
+    print_table(old_type, begin_temp, end_temp, step_size)
