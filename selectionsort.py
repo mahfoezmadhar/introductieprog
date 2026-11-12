@@ -20,7 +20,7 @@ def selection_sort(l: list[int]) -> list[int]:
         if l[index] <= minimale_waarde and l[index] < l[index + 1] and l[index] not in gesorteerd:
             minimale_waarde = l[index]
             index += 1
-        else: 
+        else: index += 1
     if minimale_waarde:
         l.insert(pos, minimale_waarde)
         pos += 1
