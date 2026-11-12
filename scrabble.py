@@ -34,7 +34,7 @@ def compute_letter_score(letter: str) -> int:
     for i in range(len(alphabet)):
         if letter == alphabet[i]:
             return POINTS[i]
- 
+    return 0
 
 if __name__ == '__main__':
     word = input("speler 1: ")
