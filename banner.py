@@ -23,7 +23,7 @@ def string_to_list(s: str) -> none:
 
 
 
-def longest_word_from_list(nieuwe_lijst: list[strwanne]) -> str:
+def longest_word_from_list(nieuwe_lijst: list[str]) -> str:
     """
     >>> longest_word_from_list(["la", "Margherita", "Vita"])
     'Margherita'
