@@ -17,5 +17,5 @@ def special_sort(l: list[int]) -> list[int]:
         for index in range(pos + 1, pos + 2):
             if l[index] < l[pos]:
 
-            l[pos], l[index] = l[index], l[pos]
+                l[pos], l[index] = l[index], l[pos]
     return l
