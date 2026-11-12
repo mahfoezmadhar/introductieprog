@@ -54,7 +54,7 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
     ###
     
     """
-    aantal_tekens = len()
+    aantal_tekens = len(longest_word_from_list(nieuwe_lijst)
     for teken in range():
         print("#")
     for woorden in nieuwe_lijst:
