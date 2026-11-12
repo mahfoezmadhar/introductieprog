@@ -45,4 +45,4 @@ if __name__ == '__main__':
     elif speler2 > speler1:
         print("Speler 2 wint!")
     else:
-        print
+        print("Gelijkspel!")
