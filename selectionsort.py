@@ -9,5 +9,7 @@ def selection_sort(l: list[int]) -> list[int]:
     for index in range(len(l)):
         if index < minimale_waarde and index < index + 1 and not in gesorteerd:
             minimale_waarde = index
+            i += 1
+        elif
             
         
