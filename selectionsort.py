@@ -21,7 +21,7 @@ def selection_sort(l: list[int]) -> list[int]:
             if index < kleinste_index:
                 kleinste_index = index
                 
-        l[pos], l[]
+        l[pos], l[kleinste_index]
     
     
     
