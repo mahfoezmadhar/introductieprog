@@ -8,7 +8,7 @@ def compute_score(word: str) -> int:
 
 def compute_letter_score(letter: str) -> int:
     """
-    34
+    
     """
 
 if __name__ == '__main__':
