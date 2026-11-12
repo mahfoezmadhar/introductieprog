@@ -41,7 +41,17 @@ def longest_word_from_list(nieuwe_lijst: list[object]) -> str:
 
 def print_banner(nieuwe_lijst: list[object]) -> str:
     """
-    
+    >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
+    ##########
+    Margherita
+    Tutta
+    la
+    Vita
+    ##########
+    >>> print_banner(["Hoi"])
+    ###
+    Hoi
+    ###    
     
     """
     for teken in range(langste_woord):
