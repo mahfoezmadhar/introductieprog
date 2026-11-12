@@ -10,7 +10,7 @@ def compute_score(word: str) -> int:
     >>> compute_score("pizza")
     25
     """
-    totale_waarde = 
+    totale_waarde = 0
     for tekenwaarde in word:
         tekenwaarde = compute_letter_score(letter)
         for letterwaarde in range(1, len(POINTS) + 1):
