@@ -59,5 +59,7 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
     for woorden in nieuwe_lijst:
         print(woorden)
     print("#" * aantal_tekens)
+    
+if __name__ == 
         
     
