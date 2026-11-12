@@ -12,23 +12,14 @@ def selection_sort(l: list[int]) -> list[int]:
     [7]
     
     """
-    minimale_waarde = max(l)
-    pos = 0
-    index = 0
-    gesorteerd = []
-    while index < len(l):
-        if l[index] <= minimale_waarde and l[index] < l[index + 1] and l[index] not in gesorteerd:
-            minimale_waarde = l[index]
-            index += 1
-        else: index += 1
-    if minimale_waarde:
-        l.insert(pos, minimale_waarde)
-        pos += 1
-        gesorteerd.append(minimale_waarde)
-        minimale_waarde = ""
-        
-    l.insert(pos, max(l))
-    return l
+    for pos in range(len(l) - 1):
+        kleinste_index = pos
+
+        for index in range(pos + 1, len(l)):
+            if l[index] < l[kleinste_index]:
+                kleinste_index = index
+
+        l[pos], l[kleinste_index] = l[kleinste_index], l[pos]
     
             
         
