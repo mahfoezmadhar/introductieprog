@@ -37,4 +37,5 @@ def compute_letter_score(letter: str) -> int:
 
 if __name__ == '__main__':
     word = input("speler 1: ")
+    print()
     word = input("speler 2: ")
