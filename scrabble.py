@@ -10,6 +10,14 @@ def compute_score(word: str) -> int:
     >>> compute_score("pizza")
     25
     """
+    
+    
+    
+    
+    
+    
+    
+    
 
 def compute_letter_score(letter: str) -> int:
     """
