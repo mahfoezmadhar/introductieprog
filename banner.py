@@ -44,6 +44,6 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
     
     
     """
-    for woord in nieuwe_lijst:
+    for woord in nieuwe_lijst
         
     
