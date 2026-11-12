@@ -65,7 +65,7 @@ def print_banner(nieuwe_lijst: list[object]) -> str:
     
 if __name__ == '__main'__:
     s = input()
-    print(f"{")
+    print(f"{print_banner()")
     
         
     
