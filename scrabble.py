@@ -31,6 +31,7 @@ def compute_letter_score(letter: str) -> int:
     10
     
     """
+    letter = letter.lower()
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for i in range(1, len(alphabet) + 1):
         if letter.lower() == alphabet[i]:
