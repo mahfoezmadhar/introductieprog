@@ -103,7 +103,7 @@ def encrypt(s: str) -> str:
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for teken in range(len(s)):
-        if teken in 
+        if s[teken] in alphabet
 
             
         
