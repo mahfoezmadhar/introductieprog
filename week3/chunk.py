@@ -17,6 +17,7 @@ def chunk(lst: list[int], n: int) -> none:
             groepje.append(lst[j])
             j += 1
         nieuwe_lijst.append(groepje)
+        
     
     
     
