@@ -14,7 +14,7 @@ def chunk(lst: list[int], n: int) -> none:
         j = i
         
         while j < i + n and j < len(lst):
-            groepje.append[lst[j]]
+            groepje.append(lst[j]]
     
     
     
