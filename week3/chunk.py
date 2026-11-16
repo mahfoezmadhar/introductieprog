@@ -13,7 +13,7 @@ def chunk(lst: list[int], n: int) -> none:
         groepje = []
         j = i
         
-        while j < i + n and j < 
+        while j < i + n and j < len(lst)
     
     
     
