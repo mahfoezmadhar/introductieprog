@@ -96,7 +96,11 @@ def vowely_words(words: list[str]) -> list[str]:
     
     
 def encrypt(s: str) -> str:
+    """""
     
+    
+    
+    """
 
             
         
