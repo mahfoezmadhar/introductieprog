@@ -101,7 +101,7 @@ def encrypt(s: str) -> str:
     
     
     """
-    alphabet = ""
+    alphabet = "abcdefghijklmn"
 
             
         
