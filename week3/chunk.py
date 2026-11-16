@@ -21,27 +21,3 @@ def chunk(lst: list[int], n: int) -> none:
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-
-    """"
-    for i in range(0, len(lst), n):
-        groepje = []
-        j = i
-
-        while j < i + n and j < len(lst):
-            groepje.append(lst[j])
-            j += 1
-
-        nieuwe_lijst.append(groepje)
-
-    return nieuwe_lijst
-    
-    
-    
