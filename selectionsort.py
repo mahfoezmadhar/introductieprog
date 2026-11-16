@@ -15,7 +15,6 @@ def selection_sort(l: list[int]) -> list[int]:
     
     
    for pos in range(len(l) - 1):
-       ddd
        kleinste_index = pos
        
        for index in range(pos + 1, len(l)):
@@ -24,6 +23,31 @@ def selection_sort(l: list[int]) -> list[int]:
         
         l[pos], l[kleinste_index] = l[kleinste_index], l[pos]
     return l
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
     
             
         
