@@ -104,7 +104,7 @@ def encrypt(s: str) -> str:
     >>> encrypt("")
     ''
     >>> encrypt("hallo")
-    ''
+    'hg'
     
     
     
