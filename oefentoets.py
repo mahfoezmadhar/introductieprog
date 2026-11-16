@@ -106,7 +106,7 @@ def encrypt(s: str) -> str:
     beveiligd = ""
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for teken in range(len(alphabet)):
-        if s[teken] in alphabet:
+        if a[teken] in alphabet:
             s[teken] = alphabet[len(alphabet - teken)]
             beveiligd += s[teken]
     return beveiligd
