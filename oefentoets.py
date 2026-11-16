@@ -107,7 +107,7 @@ def encrypt(s: str) -> str:
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for teken in range(len(s)):
         for letter in range(len(alphabet)):
-            if s[teken] == 
+            if s[teken] == alphabet[]
             
             
         
