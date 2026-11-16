@@ -108,7 +108,7 @@ def encrypt(s: str) -> str:
     for teken in range(len(s)):
         for letter in range(len(alphabet)):
             if s[teken] == alphabet[letter]:
-                nieuwe_letter = alphabet[]
+                nieuwe_letter = alphabet[25 - ]
             
             
         
