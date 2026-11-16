@@ -103,7 +103,8 @@ def encrypt(s: str) -> str:
     'zyxwvutsrqponmlkjihgfedcba'
     >>> encrypt("")
     ''
-    >>>
+    >>> encrypt("hallo")
+    'szool'
     
     
     
