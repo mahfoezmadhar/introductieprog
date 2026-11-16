@@ -9,7 +9,7 @@ def chunk(lst: list[int], n: int) -> none:
     
     """
     nieuwe_lijst = []
-    for i in range(0, len(lst), )
+    for i in range(0, len(lst), n)
     
     
     
