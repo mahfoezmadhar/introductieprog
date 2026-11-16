@@ -102,7 +102,8 @@ def encrypt(s: str) -> str:
     
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
-    for teken in range(len(s))
+    for teken in range(len(s)):
+        
 
             
         
