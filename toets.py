@@ -6,4 +6,5 @@ def select_not_lower(strs: list[str]) ->:
     
     """
     for teken in strs:
-        if teken.isupper() in strs
+        if teken.isupper() in strs:
+            
