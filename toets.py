@@ -94,6 +94,10 @@ def most_vowely_word(sentence: str) -> str:
             klinker_woord = huidig_woord      
                 
     return klinker_woord
+    
+    
+    
+
         
     
     
