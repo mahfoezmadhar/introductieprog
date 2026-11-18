@@ -10,4 +10,4 @@ def select_not_lower(strs: list[str]) ->:
         for teken in woord:
             if teken.isupper():
                 nieuwe_lijst.append(woord)
-    
+    return nieuwe_lijst
