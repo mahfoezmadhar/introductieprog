@@ -117,8 +117,6 @@ def select_palindromes(strs: list[str]) -> list[str]:
             nieuwe_lijst.append(woord)
     return nieuwe_lijst
             
-        for teken in woord:
-            
         
     
     
