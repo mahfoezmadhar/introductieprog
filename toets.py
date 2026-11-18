@@ -1,1 +1,1 @@
-def 
+def select_not_lower()
