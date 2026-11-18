@@ -28,5 +28,5 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
     
     
     """
-    for teken in range(picks)
+    for teken in range(len(picks))
     
