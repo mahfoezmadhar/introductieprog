@@ -70,7 +70,7 @@ def most_vowely_word(sentence: str) -> str:
     'groene'
     >>> most_vowely_word('kees is boos')
     'boos'
-    >>> most_vowely_word('ik ')
+    >>> most_vowely_word('ik ben ')
     
     
     """
