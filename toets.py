@@ -21,4 +21,4 @@ def select_not_lower(strs: list[str]) -> str:
     return nieuwe_lijst
     
     
-def string
+string_picker(strs: list[str], picks: list[int]) -> str
