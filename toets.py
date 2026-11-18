@@ -66,7 +66,8 @@ def remove_prefix(s: str, prefix: str) -> str:
     
 def most_vowely_word(sentence: str) -> str:
     """
-    most_vowely_word()
+    most_vowely_word('de groene kamer' )
+    'groene'
     
     
     """
