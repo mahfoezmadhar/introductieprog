@@ -45,12 +45,6 @@ def remove_prefix(s: str, prefix: str) -> str:
     'deloe'
     
     """
-    verbeterd = ""
-    for index in range(len(s)):
-        for j in range(index + 1, len(s)):
-            if s[index] not in prefix and s[j] not in prefix:
-                verbeterd += s[index]
-                verbeterd += s[j]
-    return verbeterd
+    
     
     
