@@ -107,6 +107,7 @@ def select_palindromes(strs: list[str]) -> list[str]:
     >>> select_palindromes(['lepel', 'spoon', 'ada', 'raar'])
     ['lepel', 'spoon', 'ada', 'raar']
     >>> select_palindromes(['lepel', 'spoon', 'ada', 'raar'])
+    
     """
     nieuwe_lijst = []
     for woord in strs:
