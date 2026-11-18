@@ -6,6 +6,7 @@ def select_not_lower(strs: list[str]) -> str:
     
     """
     nieuwe_lijst = []
+    teller = 0
     for woord in strs:
         for teken in woord:
             if teken.islower == False:
