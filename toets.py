@@ -42,6 +42,7 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
 def remove_prefix(s: str, prefix: str) -> str:
     """
     >>> remove_prefix('toedeloe', 'toe')
+    'deloe'
     
     """
     
