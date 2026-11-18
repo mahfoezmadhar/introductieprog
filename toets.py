@@ -30,6 +30,7 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
     >>> string_picker(['w', 'ord'] , [0, 0, 1])
     
     
+    
     """
     nieuwe_string = ""
     for teken in range(len(picks)):
