@@ -83,7 +83,7 @@ def most_vowely_word(sentence: str) -> str:
             if teller > meeste_klinkers:
                 meeste_klinkers = teller
             else:
-                
+                woord_klinkers = ""
         
     
     
