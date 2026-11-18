@@ -89,6 +89,7 @@ def vowely_words(words: list[str]) -> list[str]:
     nieuwe_lijst = []
     
     for woord in words:
+        aantal_klinkers = 0
         for teken in woord:
             if teken in "AEIOUaeiou":
                 aantal_klinkers += 1
