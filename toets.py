@@ -7,6 +7,7 @@ def select_not_lower(strs: list[str]) -> str:
     >>> select_not_lower(['Hoi', 'Hallo', 'HALLO'])
     
     
+    
     """
     nieuwe_lijst = []
     for woord in strs:
