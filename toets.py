@@ -72,6 +72,7 @@ def most_vowely_word(sentence: str) -> str:
     'boos'
     >>> most_vowely_word('ik ben een banaan')
     'banaan'
+    >>> most_vowely_word
     
     
     """
