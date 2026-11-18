@@ -12,4 +12,4 @@ def special_sort(l: list[int]) -> list[int]:
 
     """
     for pos in range(len(s) - 1):
-        
+        for index in range()
