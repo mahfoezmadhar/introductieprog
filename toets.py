@@ -52,6 +52,6 @@ def remove_prefix(s: str, prefix: str) -> str:
             return s
             
     verbeterd = ""
-    for j in range()
+    for j in range(len(index))
     
     
