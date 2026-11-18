@@ -29,7 +29,7 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
     'hallo'
     >>> string_picker(['w', 'ord'] , [0, 0, 1])
     'wword'
-    >>>
+    >>> string_picker(['w', 'ord'] , [0, 0, 1])
     
     """
     nieuwe_string = ""
