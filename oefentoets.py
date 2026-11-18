@@ -72,19 +72,7 @@ def longest_word_length(s: str) -> str:
     return teller_langstewoord
     
     
-        teller_langstewoord = 0
-    teller = 0
-    for teken in s:
-        if teken not in " ":
-            teller += 1
-        else: 
-            if teller > teller_langstewoord:
-                teller_langstewoord = teller
-            teller = 0   
-        if teller > teller_langstewoord:
-            teller_langstewoord = teller
-      
-    return teller_langstewoord
+    
     
     
     
