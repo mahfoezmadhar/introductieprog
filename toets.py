@@ -44,7 +44,7 @@ def remove_prefix(s: str, prefix: str) -> str:
     >>> remove_prefix('toedeloe', 'toe')
     'deloe'
     >>> remove_prefix('toedeloe', '')
-    'toedeloe
+    'toedeloe'
     >>> remove_prefix('miauw', 'miauwen')
     miauw
     >>> remove_prefix('', 'kat')
