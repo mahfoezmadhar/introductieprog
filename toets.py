@@ -106,7 +106,7 @@ def select_palindromes(strs: list[str]) -> list[str]:
     ['lepel', 'ada']
     >>> select_palindromes(['lepel', 'spoon', 'ada', 'raar'])
     ['lepel', 'spoon', 'ada', 'raar']
-    >>> select_palindromes(['lepel', 'spoon', 'ada', 'Raar'])
+    >>> select_palindromes(['lepel', 'spoon', 'Ada', 'Raar'])
     
     """
     nieuwe_lijst = []
