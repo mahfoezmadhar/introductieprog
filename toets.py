@@ -26,5 +26,6 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
     >>> string_picker(['a', 'dd'] , [O, 0, 1])
     
     
+    
     """
     
