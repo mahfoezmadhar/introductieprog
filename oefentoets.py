@@ -116,7 +116,7 @@ def encrypt(s: str) -> str:
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for teken in s:
         for letter in range(len(alphabet)):
-            if s == alphabet[letter]:
+            if teken == alphabet[letter]:
                 nieuwe_letter = alphabet[25 - letter]
                 beveiligd += nieuwe_letter
     return beveiligd
