@@ -1,1 +1,2 @@
-def select_not_lower(strs: list[str]) ->
+def select_not_lower(strs: list[str]) ->:
+    
