@@ -22,4 +22,8 @@ def select_not_lower(strs: list[str]) -> str:
     
     
 def string_picker(strs: list[str], picks: list[int]) -> str:
+    """
+    
+    
+    """
     
