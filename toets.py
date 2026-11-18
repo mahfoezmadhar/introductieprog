@@ -111,7 +111,8 @@ def select_palindromes(strs: list[str]) -> list[str]:
         for teken in woord:
             kan_woord1 += teken
             teken += kan_woord2
-        if 
+        if kan_woord1 == kan_woord2:
+            
         for teken in woord:
             
         
