@@ -86,9 +86,6 @@ def most_vowely_word(sentence: str) -> str:
                 klinker_woord = huidig_woord
             teller = 0
             huidig_woord = ""
-            else:
-                woord_klinkers = ""
-                
                 
     return woord_klinkers
         
