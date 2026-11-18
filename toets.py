@@ -38,3 +38,4 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
         nieuwe_string += strs[picks[teken]]
         
     return nieuwe_string
+    
