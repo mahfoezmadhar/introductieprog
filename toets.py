@@ -4,6 +4,7 @@ def select_not_lower(strs: list[str]) -> str:
     ['Roep', 'HALLO']
     >>> select_not_lower(['niks', 'mooi', 'winkel'])
     []
+    >>> select_not_lower()
     
     
     """
