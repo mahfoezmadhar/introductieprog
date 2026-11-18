@@ -27,7 +27,7 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
     'aadd'
     >>> string_picker(['h', 'a', 'l', 'o'], [0, 1, 2, 2, 3])
     'hallo'
-    >>> string_picker(['a', 'dd'] , [0, 0, 1])
+    >>> string_picker(['w', 'dd'] , [0, 0, 1])
     
     
     """
