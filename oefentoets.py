@@ -64,7 +64,7 @@ def longest_word_length(s: str) -> str:
             teller += 1
         else:
             if teller > teller_langstewoord:
-                
+                teller_langstewoord = teller_langstewoord
     
     
     
