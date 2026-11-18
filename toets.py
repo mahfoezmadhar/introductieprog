@@ -100,7 +100,8 @@ def most_vowely_word(sentence: str) -> str:
     return klinker_woord
     
     
-def 
+def select_palindromes(strs: list[str]) -> list[str]:
+    
     
     
     
