@@ -105,6 +105,7 @@ def select_palindromes(strs: list[str]) -> list[str]:
     
     
     """
+    ni
     for woord in strs:
         kan_woord1 = ""
         kan_woord2 = ""
