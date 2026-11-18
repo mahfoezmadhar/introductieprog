@@ -48,6 +48,6 @@ def remove_prefix(s: str, prefix: str) -> str:
     if len(prefix) > len(s):
         return s
     for index in range(len(prefix)):
-        if s[index] != 
+        if s[index] != prefix[index]
     
     
