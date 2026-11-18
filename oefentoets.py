@@ -82,7 +82,7 @@ def longest_word_length(s: str) -> str:
 def vowely_words(words: list[str]) -> list[str]:
     """
     >>> vowely_words(['aap', 'noot', 'mles'])
-    ['aap', 'noot', 'mies']
+    ['aap', 'noot']
     
     """
     aantal_klinkers = 0
