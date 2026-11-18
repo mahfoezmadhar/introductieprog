@@ -46,6 +46,7 @@ def remove_prefix(s: str, prefix: str) -> str:
     
     """
     if len(prefix) > len(s):
-        return string_picker
+        return s
+    for index in range
     
     
