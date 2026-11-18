@@ -3,7 +3,7 @@ def select_not_lower(strs: list[str]) -> str:
     >>> select_not_lower(['Roep', 'maar', 'HALLO'])
     ['Roep', 'HALLO']
     >>> select_not_lower(['niks', 'mooi', 'winkel'])
-    
+    []
     
     
     """
