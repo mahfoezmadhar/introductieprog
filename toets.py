@@ -39,5 +39,6 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
         
     return nieuwe_string
     
-def remove_prefix(s: str, prefix: str) -> str
+def remove_prefix(s: str, prefix: str) -> str:
+    
     
