@@ -30,6 +30,6 @@ def string_picker(strs: list[str], picks: list[int]) -> str:
     """
     nieuwe_string = ""
     for teken in range(len(picks)):
-        for j  
+        for j in range(len) 
         
     
