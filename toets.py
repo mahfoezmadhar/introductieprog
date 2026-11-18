@@ -11,5 +11,6 @@ def select_not_lower(strs: list[str]) -> str:
         for teken in woord:
             if teken.islower == False:
                 teller += 1
-        if teller
+        if teller >= 1:
+            
     return nieuwe_lijst
