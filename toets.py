@@ -109,7 +109,8 @@ def select_palindromes(strs: list[str]) -> list[str]:
         kan_woord1 = ""
         kan_woord2 = ""
         for teken in woord:
-            kan_woord1 += 
+            kan_woord1 += teken
+            teken
         for teken in woord:
             
         
