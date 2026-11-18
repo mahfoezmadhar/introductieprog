@@ -85,7 +85,6 @@ def vowely_words(words: list[str]) -> list[str]:
     ['aap', 'noot']
     
     """
-    aantal_klinkers = 0
     nieuwe_lijst = []
     
     for woord in words:
