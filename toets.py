@@ -19,3 +19,6 @@ def select_not_lower(strs: list[str]) -> str:
         if teller >= 1:
             nieuwe_lijst.append(woord)
     return nieuwe_lijst
+    
+    
+    
