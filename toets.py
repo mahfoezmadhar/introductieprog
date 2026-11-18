@@ -6,7 +6,7 @@ def select_not_lower(strs: list[str]) -> str:
     []
     >>> select_not_lower(['Hoi', 'Hallo', 'HALLO'])
     ['Hoi', 'Hallo', 'HALLO']
-    >>> select_not_lower(['Hoi', 'Cadeau', 'Mahfoez'])
+    >>> select_not_lower(['banaan', 'Cadeau', 'Mahfoez'])
     
     """
     nieuwe_lijst = []
