@@ -51,5 +51,6 @@ def remove_prefix(s: str, prefix: str) -> str:
             if s[index] not in prefix and s[j] not in prefix:
                 verbeterd += i
                 verbeterd += j
+    return verbeterd
     
     
