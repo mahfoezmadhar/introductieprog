@@ -73,7 +73,7 @@ def most_vowely_word(sentence: str) -> str:
     """
     
     meeste_klinkers = 0
-    woord_klinkers
+    woord_klinkers = ""
     teller = 0
     for index in sentence:
         
