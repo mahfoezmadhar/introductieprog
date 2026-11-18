@@ -79,7 +79,7 @@ def most_vowely_word(sentence: str) -> str:
     for index in sentence:
         if index not in " ":
             huidig_woord += index
-        if index in "AEIOUaeiou":
+        elif index in "AEIOUaeiou":
             teller += 1
         elif index in " ":
             if teller > meeste_klinkers:
