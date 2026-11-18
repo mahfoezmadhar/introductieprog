@@ -1,1 +1,1 @@
-def select_not_lower(strs)
+def select_not_lower(strs: )
