@@ -45,6 +45,7 @@ def remove_prefix(s: str, prefix: str) -> str:
     'deloe'
     
     """
-    if len(prefix)
+    if len(prefix) > len(s):
+        return string_picker
     
     
