@@ -57,7 +57,9 @@ def longest_word_length(s: str) -> str:
     7
     
     """
-    teller_langstewoord = 
+    teller_langstewoord = 0
+    teller 
+    
     
     
     
