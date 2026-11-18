@@ -81,7 +81,7 @@ def longest_word_length(s: str) -> str:
     
 def vowely_words(words: list[str]) -> list[str]:
     """
-    >>> vowely_words(['aap', 'noot', 'mies'])
+    >>> vowely_words(['aap', 'noot', 'mles'])
     ['aap', 'noot', 'mies']
     
     """
