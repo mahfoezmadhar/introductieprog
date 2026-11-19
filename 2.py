@@ -13,6 +13,7 @@ def select_containing(words: list[str], letters: str) -> list[str]:
     """
     nieuwe_lijst = []
     for woord in words:
+        i = 0
         for teken in woord:
             if teken in letters:
                 i += 1
