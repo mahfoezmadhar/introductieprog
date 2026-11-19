@@ -14,6 +14,7 @@ def select_containing(words: list[str], letters: str) -> list[str]:
     nieuwe_lijst = []
     for woord in words:
         for teken in woord:
+            i = 0
             if letters[teken] in woord:
                 nieuwe_lijst.append(woord)
     return nieuwe_lijst
