@@ -70,8 +70,7 @@ def peak_positions(values: list[int]) -> list[int]:
     >>> peak_positions([2, 2])
     []
     
-    
-    
+
     """
     
     
