@@ -127,22 +127,7 @@ def peak_positions(values: list[int]) -> list[int]:
  
  
     
-    """"
-    nieuwe_lijst = []
-    if values[0] > values[1] or values[len(values) - 1] > values[ - 2]:
-        nieuwe_lijst.append(0)
-        nieuwe_lijst.append(len(values) - 1)
-    
-    for pos in range(1, len(values) - 1):
-        for index in range(pos - 1, pos + 2):
-            if(
-                values[pos] > values[pos - 1] 
-                and values[pos] > values[pos + 1]
-            ):
-                nieuwe_lijst.append(pos)
-    return nieuwe_lijst
-    
-    """"
+
     
 def repeat_chars(s: str, counts: list[int]) -> str:
     """
