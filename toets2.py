@@ -72,7 +72,8 @@ def peak_positions(values: list[int]) -> list[int]:
 
     """
     nieuwe_lijst = []
-    for index in range(len(values))
+    for index in range(len(values)):
+        
     
     
     
