@@ -119,7 +119,8 @@ def repeat_chars(s: str, counts: list[int]) -> str:
     nieuwwoord = ''
     if s == '':
         return nieuwwoord
-    if len(s) > len(counts)
+    if len(s) > len(counts):
+        
     
 
 
