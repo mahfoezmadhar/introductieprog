@@ -70,7 +70,7 @@ def peak_positions(values: list[int]) -> list[int]:
     >>> peak_positions([2, 2])
     []
     >>> peak_positions([120, 135, -31, 49])
-    
+    [1, 3]
     
     
     
