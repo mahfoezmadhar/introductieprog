@@ -30,7 +30,7 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     >>> split_capitalized([''])
     [[], ['']]
     >>> split_capitalized(['ABC', 'aBC'])
-    
+    [['ABC'], ['aBC']]
     
     
     
