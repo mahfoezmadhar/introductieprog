@@ -136,6 +136,7 @@ def repeat_chars(s: str, counts: list[int]) -> str:
         for index in range(len(s), len(counts)):
             nieuwwoord += s[index]
     
+    
 
 
 def reverse_long_words(sentence: str, n: int) -> str:
