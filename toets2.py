@@ -110,7 +110,7 @@ def repeat_chars(s: str, counts: list[int]) -> str:
     'wanneer'
     >>> repeat_chars('hallo', [])
     'hallo'
-    >>> repeat_chars(ab, [2, 3, 4])
+    >>> repeat_chars('ab, [2, 3, 4])
     
     
     
