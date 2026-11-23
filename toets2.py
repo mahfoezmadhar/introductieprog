@@ -73,6 +73,8 @@ def peak_positions(values: list[int]) -> list[int]:
     """
     nieuwe_lijst = []
     for index in range(len(values)):
+        if len(values) == 1:
+            nieuwe_lijst.append(index)
         
         if index == 0:
             if values[index] > values[index + 1]:
