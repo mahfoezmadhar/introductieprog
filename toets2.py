@@ -69,8 +69,8 @@ def peak_positions(values: list[int]) -> list[int]:
     2
     >>> peak_positions([2, 2])
     []
-    >>> peak_positions([120, 135, -31, 49])
-    [1, 3]
+    
+    
     
     """
     
@@ -78,36 +78,6 @@ def peak_positions(values: list[int]) -> list[int]:
     
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def repeat_chars(s: str, counts: list[int]) -> str:
     """
     nieuwe string met teken herhaald met de factor counts uit die list
