@@ -41,6 +41,30 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """"
 def peak_positions(values: list[int]) -> list[int]:
     """
