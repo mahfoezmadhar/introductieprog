@@ -69,7 +69,6 @@ def peak_positions(values: list[int]) -> list[int]:
     2
     >>> peak_positions([2, 2])
     []
-    
 
     """
     
