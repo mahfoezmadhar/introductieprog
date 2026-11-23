@@ -47,7 +47,7 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
         if teller >= 1:
             hoofdletter.append(letter)
         else:
-            
+            kleine.append(lett)
             
         
     
