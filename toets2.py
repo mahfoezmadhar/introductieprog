@@ -44,7 +44,8 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     for letter in strs:
         if letter not strs.lower():
             teller += 1
-        if 
+        if teller >= 1:
+            
         
     
     
