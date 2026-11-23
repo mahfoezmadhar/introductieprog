@@ -42,6 +42,8 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     kleine = []
     teller = 0
     for woord in strs:
+        for letter in woord:
+            
         if letter not strs.lower():
             teller += 1
         if teller >= 1:
