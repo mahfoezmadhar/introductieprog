@@ -90,7 +90,7 @@ def peak_positions(values: list[int]) -> list[int]:
     
     
     
-    
+    """"
     nieuwe_lijst = []
     if values[0] > values[1] or values[len(values) - 1] > values[ - 2]:
         nieuwe_lijst.append(0)
