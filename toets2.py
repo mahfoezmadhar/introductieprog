@@ -37,7 +37,40 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     
     
     """
-    is_hoofdletter = []
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+is_hoofdletter = []
     is_geen = []
     for woord in strs:
         aantal = 0
