@@ -37,59 +37,21 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     
     
     """
+    is_hoofdletter = []
+    is_geen = []
+    for woord in strs:
+        aantal = 0
+        for letter in woord:
+            if letter.isupper():
+                aantal += 1
+        if aantal >= 1:
+            is_hoofdletter.append(woord)
+        else:
+            is_geen.append(woord)
+    return [is_hoofdletter, is_geen]
     
     
     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def peak_positions(values: list[int]) -> list[int]:
     """
     geeft een list met de posities van de toppenn
