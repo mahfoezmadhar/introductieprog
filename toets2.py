@@ -42,7 +42,7 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     kleine = []
     teller = 0
     for letter in strs:
-        
+        if 
         
     
     
