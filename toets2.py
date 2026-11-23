@@ -43,6 +43,8 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
             kleine.append(woord)
         if woord[0].islower():
             kleine.append(woord)
+        else:
+            hoofdletter.append(woord)
         
     return [hoofdletter, kleine]
             
