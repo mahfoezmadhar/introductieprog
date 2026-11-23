@@ -28,7 +28,7 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     >>> split_capitalized(['hallo', 'fiets', 'niks', ''])
     [[], ['hallo', 'fiets', 'niks', '']]
     >>> split_capitalized([''])
-    [[], ['']]
+    [[''], ['']]
     >>> split_capitalized(['Johan', 'Ruud', 'Almere', 'Amstelveen'])
     [['Johan', 'Ruud', 'Almere', 'Amstelveen'], []]
     >>> split_capitalized(['ABC', 'aBC'])
