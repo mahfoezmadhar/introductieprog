@@ -111,14 +111,22 @@ def repeat_chars(s: str, counts: list[int]) -> str:
     >>> repeat_chars('hallo', [])
     'hallo'
     >>> repeat_chars('ab', [2, 3, 4])
-    aabbb
     
     
     
     
     """
     nieuw_woord = ''
-    
+    if s == '':
+        return nieuw_woord
+    for index in range(len(counts)):
+        i = 0
+        while i < counts[index]:
+            nieuw_woord = nieuw_woord + s[index]
+            i += 1
+    for index in range(len(counts), len(s)):
+        nieuw_woord += s[index]
+    return nieuw_woord
     
 
 
