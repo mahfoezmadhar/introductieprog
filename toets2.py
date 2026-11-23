@@ -40,7 +40,8 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     
     hoofdletter = []
     kleine = []
-    for 
+    for letter in strs:
+        
     
     
     
