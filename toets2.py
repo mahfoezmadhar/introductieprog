@@ -33,36 +33,15 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     [['Johan', 'Ruud', 'Almere', 'Amstelveen'], []]
     >>> split_capitalized(['ABC', 'aBC'])
     [['ABC'], ['aBC']]
-     """
+    
+    
+    
+    """
     
     
     
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-""""
 def peak_positions(values: list[int]) -> list[int]:
     """
     geeft een list met de posities van de toppenn
