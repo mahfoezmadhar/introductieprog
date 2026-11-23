@@ -49,7 +49,7 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
             hoofdletter.append(woord)
         else:
             kleine.append(woord)
-    return 
+    return []
             
         
     
