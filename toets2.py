@@ -43,7 +43,7 @@ def split_capitalized(strs: list[str]) -> list[list[str]]:
     teller = 0
     for woord in strs:
         for letter in woord:
-            if letter not strs.islower():
+            if letter strs.islower():
                 teller += 1
         if teller >= 1:
             hoofdletter.append(woord)
