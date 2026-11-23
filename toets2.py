@@ -79,6 +79,7 @@ def peak_positions(values: list[int]) -> list[int]:
                 
             
         if index != 0 or index != -1:
+            for pos in range()
             if( 
             values[index] > values[index + 1] 
             and values[index] > values[index - 1]
