@@ -127,6 +127,7 @@ def repeat_chars(s: str, counts: list[int]) -> str:
                 i += 1
     if len(s) < len(counts):
         for index in range(len(s)):
+            i = 0
             
     
 
