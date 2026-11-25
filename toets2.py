@@ -160,7 +160,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     for letter in sentence:
         if letter not in " .":
             huidig_woord += letter
-            
+            huidigwoord
         if letter in " .":
             if len(huidig_woord) > n:
                 
