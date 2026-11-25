@@ -155,7 +155,8 @@ def reverse_long_words(sentence: str, n: int) -> str:
     nieuwe_zin = ''
     nieuw_woord = ''
     huidig_woord = ''
-    if sentence == 
+    if sentence == '':
+        return nie
     for letter in sentence:
         if letter not in " .":
     
