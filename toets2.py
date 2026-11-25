@@ -153,35 +153,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     
     """
     
-    teller = 0
-    nieuw_woordrev = ''
-    nieuw_woord = ''
-    nieuw_zin = ''
-    for index in range(len(sentence)):
-        if sentence[index] not in " .":
-            teller += 1
-            nieuw_woordrev = sentence[index] + nieuw_woordrev
-            nieuw_woord += sentence[index]
-            
-        else:
-            if teller > n:
-                if index == 0:
-                    nieuw_zin += nieuw_woordrev
-                    
-                else:
-                    nieuw_zin += ' ' + nieuw_woordrev
-            else:
-                if index == 0:
-                    nieuw_zin += nieuw_woord
-                    
-                else:
-                    nieuw_zin += ' ' + nieuw_woord
-                
-            nieuw_woord = ''
-            nieuw_woordrev = ''
-            teller = 0
-            
-    return nieuw_zin
+    
     
     
     
