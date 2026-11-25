@@ -20,7 +20,7 @@ def contig(lst: list[int]) -> list[int]:
             deel_lijst.append(lst[index])
             nieuwe_lijst.append(deel_lijst)
             deel_lijst = []
-    
+    for pos in range
     return nieuwe_lijst
             
         
