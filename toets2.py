@@ -152,7 +152,8 @@ def reverse_long_words(sentence: str, n: int) -> str:
     
     
     """
-    
+    nieuwe_zin = ''
+    nieuw_woord = ''
     
     
     
