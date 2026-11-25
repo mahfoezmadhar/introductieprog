@@ -14,5 +14,6 @@ def contig(lst: list[int]) -> list[int]
     nieuwe_lijst = []
     for index in range(len(lst) - 1):
         
+        
     
     
