@@ -18,7 +18,6 @@ def contig(lst: list[int]) -> list[int]
             deel_lijst.append(lst[index])
             deel_lijst.append(lst[index + 1])
         else:
-            deel_lijst.append(lst[index])
             nieuwe_lijst.append(deel_lijst)
             deel_lijst = []
     return nieuwe_lijst
