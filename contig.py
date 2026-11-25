@@ -24,7 +24,7 @@ def contig(lst: list[int]) -> list[int]:
             deel_lijst = []
             if lst[index + 1] == lst[-1]:
                 deel_lijst.append(lst[-1])
-                
+                nieuwe_lijst
     if 
     return nieuwe_lijst
             
