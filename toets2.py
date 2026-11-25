@@ -167,7 +167,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
                 huidigwoord_rev = ''
             else:
                 nieuwe_zin ++ huidig_woord
-                huid
+                huidig_woord
                 
                 
         
