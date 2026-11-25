@@ -11,6 +11,7 @@ def contig(lst: list[int]) -> list[int]
     >>> contig([])
     []
     """
+    nieuwe_lijst = []
     for index in range(len(lst) - 1):
         
     
