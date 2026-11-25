@@ -194,6 +194,7 @@ def select_containing(words: list[str], letters: str) -> list[str]:
     
     """
     nieuwe_lijst = []
+    nieuwe_lijstniet = []
     for woord in words:
         for index in 
             
