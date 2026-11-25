@@ -1,16 +1,16 @@
 def contig(lst: list[int]) -> list[int]
 
 
-"""
->>> contig([1, 2, 3, 5, 6, 9])
-[[1, 2, 3], [5, 6], [9]]
->>> contig([1, 2, 3])
-[[1, 2, 3]]
->>> contig([1, 3, 5])
-[[1], [3], [5]]
->>> contig([])
-[]
-"""
-for index in range(len(lst) - 1):
+    """
+    >>> contig([1, 2, 3, 5, 6, 9])
+    [[1, 2, 3], [5, 6], [9]]
+    >>> contig([1, 2, 3])
+    [[1, 2, 3]]
+    >>> contig([1, 3, 5])
+    [[1], [3], [5]]
+    >>> contig([])
+    []
+    """
+    for index in range(len(lst) - 1):
     
     
