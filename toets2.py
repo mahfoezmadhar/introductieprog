@@ -154,10 +154,10 @@ def reverse_long_words(sentence: str, n: int) -> str:
     """
     nieuwe_zin = ''
     nieuw_woord = ''
+    huidig_woord = ''
     if sentence == '':
         return nieuwe_zin
     for letter in sentence:
-        
         if letter not in " .":
             huidig_woord += letter
         
