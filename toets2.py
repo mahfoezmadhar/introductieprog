@@ -195,5 +195,5 @@ def select_containing(words: list[str], letters: str) -> list[str]:
     """
     nieuwe_lijst = []
     for woord in words:
-        for index in range()
+        for index in range(
             
