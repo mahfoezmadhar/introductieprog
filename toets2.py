@@ -139,7 +139,7 @@ def repeat_chars(s: str, counts: list[int]) -> str:
 
 def reverse_long_words(sentence: str, n: int) -> str:
     """
-    draait worden om als langer dan n letters
+    draait woorden om als langer dan n letters
     
     >>> reverse_long_words('dit is een lange zin.', 3)
     'dit is een egnal zin'
