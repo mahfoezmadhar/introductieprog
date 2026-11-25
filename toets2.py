@@ -142,7 +142,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     draait woorden om als langer dan n letters
     
     >>> reverse_long_words('dit is een lange zin.', 3)
-    'dit is een egnal zin'
+    'dit is een egnal zin.'
     >>> reverse_long_words('hoe gaat het.', 0)
     'eoh taag teh.'
     >>> reverse_long_words('', 2)
