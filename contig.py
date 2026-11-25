@@ -18,5 +18,6 @@ def contig(lst: list[int]) -> list[int]
             deel_lijst.append(deel_lijst)
         
         
+        
     
     
