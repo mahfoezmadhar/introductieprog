@@ -193,9 +193,3 @@ def select_containing(words: list[str], letters: str) -> list[str]:
     ['banaan', 'vriend', 'vla']
     
     """
-    nieuwe_lijst = []
-    for woord in words:
-        for teken in range(len(letters)):
-            if letters[teken] in woord:
-                nieuwe_lijst.append(woord)
-    return nieuwe_lijst
