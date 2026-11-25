@@ -193,4 +193,5 @@ def select_containing(words: list[str], letters: str) -> list[str]:
     ['banaan', 'vriend', 'vla']
     
     """
-    for 
+    for woord in words:
+        for letters in woord
