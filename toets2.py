@@ -148,7 +148,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     >>> reverse_long_words('', 2)
     ''
     >>> reverse_long_words('dit.', 2)
-    'tid'
+    'tid.'
     
     
     """
