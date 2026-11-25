@@ -22,7 +22,7 @@ def contig(lst: list[int]) -> list[int]
             deel_lijst = []
             if lst[-1]:
                 deel_lijst.append(lst[-1])
-                
+                nieuwe_lijst.append(deel_lijst)
     return nieuwe_lijst
             
         
