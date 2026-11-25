@@ -11,3 +11,4 @@ def contig(lst: list[int]) -> list[int]
 >>> contig([])
 []
 """
+
