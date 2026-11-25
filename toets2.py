@@ -144,7 +144,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     >>> reverse_long_words('dit is een lange zin.', 3)
     'dit is een egnal zin'
     >>> reverse_long_words('hoe gaat het.', 0)
-    'eoh taag teh'
+    'eoh taag teh.'
     >>> reverse_long_words('', 2)
     ''
     >>> reverse_long_words('dit.', 2)
