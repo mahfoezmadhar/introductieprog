@@ -163,7 +163,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
             huidigwoord_rev= letter + huidigwoord_rev
         if letter in " .":
             if len(huidig_woord) > n:
-                ni
+                nieuwe_zin +=
                 
         
     
