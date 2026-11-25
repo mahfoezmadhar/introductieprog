@@ -161,7 +161,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
         if letter not in " .":
             huidig_woord += letter
         if letter in " .":
-            if len(huidig_woord)
+            if len(huidig_woord) > 
         
     
     
