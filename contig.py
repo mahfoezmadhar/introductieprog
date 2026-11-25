@@ -14,7 +14,8 @@ def contig(lst: list[int]) -> list[int]
     nieuwe_lijst = []
     deel_lijst = []
     for index in range(len(lst) - 1):
-        if lst[index + 1] - lst[index] == 1
+        if lst[index + 1] - lst[index] == 1:
+            
         
         
     
