@@ -199,7 +199,7 @@ def select_containing(words: list[str], letters: str) -> list[str]:
         for index in letters:
             if index not in woord:
                 nieuwe_lijstniet.append(woord)
-        if woord not om nieuwe_lijstniet:
+        if woord not in nieuwe_lijstniet:
             nieuwe_lijst.append(woord)
     return nieuwe_lijst
             
