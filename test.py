@@ -1,8 +1,2 @@
-# openen
-data_file = open("myfile.txt")
-
-# lees een regel en print
-print(data_file.readline())
-
-# sluiten
-data_file.close()
+with open("myfile.txt") as data_file:
+    print(data_file.readline())
