@@ -71,7 +71,10 @@ def shuffle_round(board: list[int], discs: int) -> int:
     return discs
     
     
-
+if __name__ == '__main__':
+    <Zet het bord klaar, simuleer drie rondes en
+     bereken aan het eind het aantal punten op basis van
+     de staat van het sjoelbord>
 
 
     
