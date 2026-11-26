@@ -9,7 +9,8 @@ def calculate_points(board: list[int]) -> int:
     >>> calculate_points([3, 4, 3, 5])
     65
     """
-    for 
+    for teken in board:
+        
     
     
     
