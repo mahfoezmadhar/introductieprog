@@ -19,7 +19,8 @@ def calculate_points(board: list[int]) -> int:
     if count >= 1:
         board_normaal.append(board)
     else:
-        board_kwartet.append()
+        board_kwartet.append(board)
+        
             
             
             
