@@ -26,7 +26,7 @@ def calculate_points(board: list[int]) -> int:
         b = board_normaal[1] * 3
         c = board_normaal[2] * 4
         d = board_normaal[3] * 1
-        
+        return a + b + c + d
         
             
         
