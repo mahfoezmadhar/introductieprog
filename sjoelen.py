@@ -1,12 +1,12 @@
 def calculate_points(board: list[int]) -> int:
-"""
->>> calculate_points([0, 0, 0, 0])
-0
->>> calculate_points([1, 2, 3, 0])
-20
->>> calculate_points([1, 1, 1, 1])
-20
->>> calculate_points([3, 4, 3, 5])
+    """
+    >>> calculate_points([0, 0, 0, 0])
+    0
+    >>> calculate_points([1, 2, 3, 0])
+    20
+    >>> calculate_points([1, 1, 1, 1])
+    20
+    >>> calculate_points([3, 4, 3, 5])
 65
 """
 
