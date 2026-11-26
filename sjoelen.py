@@ -60,7 +60,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
         discs -= 1
         random.uniform(0,1)
         if x <= 0.3:
-            
+            board[0]
 
 
 
