@@ -54,6 +54,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     >>> 0 <= over <= 10 and sum(board) + over == 16
     True
     """
+    
 
 
 
