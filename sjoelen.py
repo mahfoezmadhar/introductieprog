@@ -12,9 +12,26 @@ def calculate_points(board: list[int]) -> int:
 
 def shuffle_round(board: list[int], discs: int) -> int:
     """
-    Simuleert een enkele ronde sjoelen. De variable `board` wordt
-    aangepast als er een schijf in een gleuf terecht komt. Returnt
-    het aantal schijven dat nog over is om nog eens mee te schuiven.
+>>> board = [0, 0, 0, 0]
+>>> shuffle_round(board, 0)
+0
+>>> board
+[0, 0, 0, 0]
+
+>>> board = [0, 0, 0, 0]
+>>> over = shuffle_round(board, 1)
+>>> 0 <= over <= 1 and sum(board) + over == 1
+True
+
+>>> board = [0, 0, 0, 0]
+>>> over = shuffle_round(board, 30)
+>>> 0 <= over <= 30 and sum(board) + over == 30
+True
+
+>>> board = [2, 1, 0, 3]
+>>> over = shuffle_round(board, 10)
+>>> 0 <= over <= 10 and sum(board) + over == 16
+Trueaantal schijven dat nog over is om nog eens mee te schuiven.
     """
 
 if __name__ == '__main__':
