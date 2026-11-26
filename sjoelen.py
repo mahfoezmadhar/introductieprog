@@ -65,7 +65,8 @@ def shuffle_round(board: list[int], discs: int) -> int:
             board[1] += 1
         if 0.5 < x <= 0.7:
             board[2] += 1
-        if 0.7 < x <= 1
+        if 0.7 < x <= 1:
+            
 
 
 
