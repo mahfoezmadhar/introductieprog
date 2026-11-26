@@ -19,6 +19,7 @@ def calculate_points(board: list[int]) -> int:
         if count >= 1:
             
             
+            
         
     
     
