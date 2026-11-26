@@ -54,7 +54,6 @@ def shuffle_round(board: list[int], discs: int) -> int:
     >>> 0 <= over <= 10 and sum(board) + over == 16
     True
     """
-    discs = 30
     random.uniform(0,1)
     if x <= 0.25:
         discs -= 1
