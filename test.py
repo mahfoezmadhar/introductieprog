@@ -1,2 +1,2 @@
-with open("myfile.txt") as data_file:
-    print(data_file.readline())
+with open("myotherfile.txt", "w") as data_file:
+    data_file.write("hello")
