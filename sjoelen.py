@@ -20,7 +20,7 @@ def calculate_points(board: list[int]) -> int:
         board_normaal.append(board)
     else:
         board_kwartet.append(board)
-        
+    
             
             
             
