@@ -22,7 +22,7 @@ def calculate_points(board: list[int]) -> int:
         board_kwartet.append(board)
     
     if board_normaal:
-        board_normaal[0] * 2
+        a = board_normaal[0] * 2
         
             
         
