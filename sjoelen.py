@@ -10,6 +10,7 @@ def calculate_points(board: list[int]) -> int:
     65
     """
     nieuw_board = []
+    count = 0
     for teken in board:
         
     
