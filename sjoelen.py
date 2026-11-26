@@ -55,6 +55,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     True
     """
     discs = 30
+    
 
 
 
