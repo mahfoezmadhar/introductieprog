@@ -1,3 +1,4 @@
+
 def calculate_points(board: list[int]) -> int:
     """
     >>> calculate_points([0, 0, 0, 0])
