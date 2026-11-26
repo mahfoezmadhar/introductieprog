@@ -31,6 +31,7 @@ def calculate_points(board: list[int]) -> int:
     if board_kwartet:
         
         
+        
             
         
             
