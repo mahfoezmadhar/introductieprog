@@ -18,7 +18,7 @@ def calculate_points(board: list[int]) -> int:
         a = board[0] * 2
         b = board[1] * 3
         c = board[2] * 4
-        d = board_normaal[3] * 1
+        d = board[3] * 1
         return a + b + c + d
     else:
         board_kwartet.append(board)
