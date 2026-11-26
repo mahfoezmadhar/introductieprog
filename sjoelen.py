@@ -31,7 +31,7 @@ def calculate_points(board: list[int]) -> int:
     if board_kwartet:
         a = min(board_kwartet)
         ab = min(board_kwartet) * 20
-        b = (board_kwartet[0] - a) *  
+        b = (board_kwartet[0] - a) * 2 
         
         
         
