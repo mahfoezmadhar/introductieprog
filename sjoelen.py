@@ -46,7 +46,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
 
     >>> board = [0, 0, 0, 0]
     >>> over = shuffle_round(board, 30)
-    >>> 0 <= over <= 30 and sum(board) + discs == 30
+    >>> 0 <= over <= 30 and sum(board) + over == 30
     True
 
     >>> board = [2, 1, 0, 3]
