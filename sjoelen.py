@@ -75,7 +75,7 @@ if __name__ == '__main__':
     for index in range(3):
         shuffle_round(board, discs)
     board = shuffle_round(board)
-    print(f"je bent geëindigd op deze configuratie")
+    print(f"je bent geëindigd op deze configuratie:")
      
 
 
