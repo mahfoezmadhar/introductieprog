@@ -56,28 +56,30 @@ def shuffle_round(board: list[int], discs: int) -> int:
     """
     if discs == 0:
         return 0
-    for index in range(30):
-        x = random.uniform(0,1)
-        if x <= 0.25:
-            discs -= 1
-            y = random.uniform(0,1)
-            if y <= 0.30:
-                board[0] += 1
-            elif 0.3 < y <= 0.50:
-                board[1] += 1
-            elif 0.5 < y <= 0.70:
-                board[2] += 1
-            elif 0.7 < y <= 1.0:
-                board[3] += 1
+    x = random.uniform(0,1)
+    if x <= 0.25:
+        discs -= 1
+        y = random.uniform(0,1)
+        if y <= 0.30:
+            board[0] += 1
+        elif 0.3 < y <= 0.50:
+            board[1] += 1
+        elif 0.5 < y <= 0.70:
+            board[2] += 1
+        elif 0.7 < y <= 1.0:
+            board[3] += 1
     return discs
     
     
 if __name__ == '__main__':
     discs = 30
     board = [0, 0, 0, 0]
-    discs = shuffle_round(board, discs)
-    discs = shuffle_round(board, discs)
-    
+    for index in range(discs):
+        discs = shuffle_round(board, discs)
+    for index in range(discs):
+        discs = shuffle_round(board, discs)
+    for index in range(discs):
+        discs = shuffle_round(board, discs)
     print(f"Je bent geëindigd op deze configuratie:{board}")
     print(f"Dat zijn {calculate_points(board)} punten!")
      
