@@ -55,7 +55,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     True
     """
     if discs == 0:
-        return 
+        return 0
     x = random.uniform(0,1)
     if x <= 0.25:
         discs -= 1
