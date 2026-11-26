@@ -72,8 +72,6 @@ def shuffle_round(board: list[int], discs: int) -> int:
     
     
 if __name__ == '__main__':
-    discs = 30
-    board = [0, 0, 0, 0]
     for index in range(3):
         shuffle_round([0, 0, 0, 0], 30)
     print(f"Je bent geëindigd op deze configuratie:{board}")
