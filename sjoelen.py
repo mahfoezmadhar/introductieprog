@@ -14,7 +14,8 @@ def calculate_points(board: list[int]) -> int:
     for teken in board:
         if teken == 0:
             count += 1
-        if count 
+        if count >= 1:
+            
         
     
     
