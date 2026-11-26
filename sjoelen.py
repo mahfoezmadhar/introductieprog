@@ -52,7 +52,7 @@ def calculate_points(board: list[int]) -> int:
     
     
     
- """"   
+""""   
 
 def shuffle_round(board: list[int], discs: int) -> int:
     """
