@@ -83,4 +83,4 @@ if __name__ == '__main__':
      bereken aan het eind het aantal punten op basis van
      de staat van het sjoelbord>
      
-""""
+    """"
