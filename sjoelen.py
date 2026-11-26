@@ -73,7 +73,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     
 if __name__ == '__main__':
     for index in range(3):
-        
+        board = 
      
 
 
