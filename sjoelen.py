@@ -20,7 +20,7 @@ def calculate_points(board: list[int]) -> int:
         board_normaal.append(board)
     else:
         board_kwartet.append(board)
-                a = min(board_kwartet)
+        a = min(board_kwartet)
         ab = min(board_kwartet) * 20
         b = (board_kwartet[0] - a) * 2
         c = (board_kwartet[1] - a) * 3
@@ -35,14 +35,6 @@ def calculate_points(board: list[int]) -> int:
         d = board_normaal[3] * 1
         return a + b + c + d
     
-    if board_kwartet:
-        a = min(board_kwartet)
-        ab = min(board_kwartet) * 20
-        b = (board_kwartet[0] - a) * 2
-        c = (board_kwartet[1] - a) * 3
-        d = (board_kwartet[2] - a) * 4
-        e = (board_kwartet[3] - a) * 1
-        return ab + b + c + d + e
         
         
         
