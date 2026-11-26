@@ -18,7 +18,7 @@ def calculate_points(board: list[int]) -> int:
             count += 1
     if count >= 1:
         board_normaal.append(board)
-        a = board_normaal[0] * 2
+        a = board[0] * 2
         b = board_normaal[1] * 3
         c = board_normaal[2] * 4
         d = board_normaal[3] * 1
