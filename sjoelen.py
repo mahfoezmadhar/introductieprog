@@ -22,7 +22,7 @@ def calculate_points(board: list[int]) -> int:
         board_kwartet.append(board)
     
     if board_normaal:
-        for teken in range()
+        for teken in range(len(board_normaal))
         
             
             
