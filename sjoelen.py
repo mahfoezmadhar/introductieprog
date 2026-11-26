@@ -1,9 +1,14 @@
 def calculate_points(board: list[int]) -> int:
-    """
-    Berekent het aantal punten dat is behaald met sjoelen. De
-    volgorde van de punten is [2, 3, 4, 1]. Wanneer er een
-    kwartet tussen zit, telt dit voor 20 punten.
-    """
+"""
+>>> calculate_points([0, 0, 0, 0])
+0
+>>> calculate_points([1, 2, 3, 0])
+20
+>>> calculate_points([1, 1, 1, 1])
+20
+>>> calculate_points([3, 4, 3, 5])
+65
+"""
 
 def shuffle_round(board: list[int], discs: int) -> int:
     """
