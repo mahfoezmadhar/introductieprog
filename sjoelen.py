@@ -75,7 +75,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     >>> board = [2, 1, 0, 3]
     >>> over = shuffle_round(board, 10)
     >>> 0 <= over <= 10 and sum(board) + over == 16
-    Trueaantal schijven dat nog over is om nog eens mee te schuiven.
+    True
     """
 
 if __name__ == '__main__':
