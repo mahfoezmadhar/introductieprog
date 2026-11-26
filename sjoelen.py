@@ -18,6 +18,11 @@ def calculate_points(board: list[int]) -> int:
             count += 1
     if count >= 1:
         board_normaal.append(board)
+                a = board_normaal[0] * 2
+        b = board_normaal[1] * 3
+        c = board_normaal[2] * 4
+        d = board_normaal[3] * 1
+        return a + b + c + d
     else:
         board_kwartet.append(board)
         a = min(board_kwartet)
@@ -27,13 +32,6 @@ def calculate_points(board: list[int]) -> int:
         d = (board_kwartet[2] - a) * 4
         e = (board_kwartet[3] - a) * 1
         return ab + b + c + d + e
-    
-    if board_normaal:
-        a = board_normaal[0] * 2
-        b = board_normaal[1] * 3
-        c = board_normaal[2] * 4
-        d = board_normaal[3] * 1
-        return a + b + c + d
     
         
         
