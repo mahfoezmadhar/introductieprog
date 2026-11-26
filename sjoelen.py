@@ -24,7 +24,8 @@ def calculate_points(board: list[int]) -> int:
     if board_normaal:
         a = board_normaal[0] * 2
         b = board_normaal[1] * 3
-        c = board_normaal[2]
+        c = board_normaal[2] * 4
+        d = board_normaal[]
         
             
         
