@@ -10,7 +10,8 @@ def calculate_points(board: list[int]) -> int:
     65
     """
     nieuw_board = []
-    board_kwartet
+    board_kwartet = []
+    board_normaal = []
     count = 0
     for teken in board:
         if teken == 0:
