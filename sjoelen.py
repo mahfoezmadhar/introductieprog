@@ -52,6 +52,7 @@ def shuffle_round(board: list[int], discs: int) -> int:
     >>> over = shuffle_round(board, 10)
     >>> 0 <= over <= 10 and sum(board) + over == 16
     True
+    """
 
 if __name__ == '__main__':
     <Zet het bord klaar, simuleer drie rondes en
