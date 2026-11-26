@@ -35,7 +35,7 @@ def calculate_points(board: list[int]) -> int:
         c = (board_kwartet[1] - a) * 3
         d = (board_kwartet[2] - a) * 4
         e = (board_kwartet[3] - a) * 1
-        return 
+        return ab + b + c + d + e
         
         
         
