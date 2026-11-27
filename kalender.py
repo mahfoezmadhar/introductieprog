@@ -13,7 +13,9 @@ def is_leap_year(year: int) -> bool:
     True
     """
     if year % 4 == 0 and year % 400 == 0 and year % 100 != 0:
-        
+        return True
+    else:
+        return False
 
 def days_from_1800(month: int, year: int) -> int:
     """
