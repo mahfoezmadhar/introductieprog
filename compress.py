@@ -1,1 +1,1 @@
-def compress(lst)
+def compress(lst: )
