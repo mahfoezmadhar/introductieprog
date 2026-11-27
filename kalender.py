@@ -30,6 +30,7 @@ def days_from_1800_until_year(year: int) -> int:
     1 januari van het nieuwe jaar is niet meegerekend.
     Gebruikt `is_leap_year`.
     """
+    aantal dagen
     if is_leap_year:
         aantal dagen = 366
     else:
