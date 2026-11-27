@@ -9,7 +9,7 @@ def is_leap_year(year: int) -> bool:
     False
     >>> is_leap_year(1901)
     False
-    >>> is_leap_year(340)
+    >>> is_leap_year(1340)
     True
     """
     if year % 4 == 0 and year % 400 == 0 and year % 100 != 0:
