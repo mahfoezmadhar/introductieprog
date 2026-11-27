@@ -35,7 +35,7 @@ def days_from_1800_until_year(year: int) -> int:
             aantal_dagen += 366
         else:
             aantal_dagen += 365
-    return (year - 1800) * aantal_dagen
+    return aantal_dagen
 
 def days_until_month(month: int, year: int) -> int:
     """
