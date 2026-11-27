@@ -7,6 +7,7 @@ def is_leap_year(year: int) -> bool:
     False
     >>> is_leap_year(1900)
     False
+    >>> is_leap_year()
     """
 
 def days_from_1800(month: int, year: int) -> int:
