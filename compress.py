@@ -4,7 +4,7 @@ def compress(lst: list[int]) -> list[list[int]]:
     
     
     """
-    
+    count = 0
     
     
     
