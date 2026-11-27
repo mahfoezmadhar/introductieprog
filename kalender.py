@@ -26,7 +26,14 @@ def days_from_1800(month: int, year: int) -> int:
 
 def days_from_1800_until_year(year: int) -> int:
     """
-    >>> days_fr
+    >>> days_from_1800_until_year(1800)
+    0
+    >>> days_from_1800_until_year(1801)
+    365
+    >>> days_from_1800_until_year(1805)
+    1826
+    >>> days_from_1800_until_year(2010)
+    76701
     
     """
     aantal_dagen = 0
