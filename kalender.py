@@ -29,7 +29,6 @@ def days_from_1800_until_year(year: int) -> int:
     >>>
     
     """
-    aantal_dagen = 0
     
     if is_leap_year:
         aantal_dagen = 366
