@@ -6,7 +6,7 @@ def is_leap_year(year: int) -> bool:
     >>> is_leap_year(2010)
     False
     >>> is_leap_year(1804)
-    False
+    True
     >>> is_leap_year(1901)
     False
     >>> is_leap_year(1940)
